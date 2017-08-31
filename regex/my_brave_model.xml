@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="tree_my_brave_model">
+      <field name="name">tree_my_brave_model</field>
+      <field name="model">my_brave_model</field>
+      <field name="arch" type="xml">
+        <tree string="my_brave_model">
+          <field name="name"/>
+          <field name="age"/>
+          <field name="born"/>
+          <field name="name"/>
+          <field name="age"/>
+          <field name="born"/>
+        </tree>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="form_my_brave_model">
+      <field name="name">form_my_brave_model</field>
+      <field name="model">my_brave_model</field>
+      <field name="arch" type="xml">
+        <form string="My Brave Model">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="age"/>
+              <field name="born"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="search_my_brave_model">
+      <field name="name">search_my_brave_model</field>
+      <field name="model">my_brave_model</field>
+      <field name="arch" type="xml">
+        <search/>
+      </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_my_brave_model">
+      <field name="name">My Brave Model</field>
+      <field name="model">my_brave_model</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+      <field name="help" type="xml">
+        <p class="oe_view_nocontent_create">Create the first income type</p>
+      </field>
+    </record>
+    <menuitem id="menu_my_brave_model" name="My Brave Model" sequence="12" action="action_my_brave_model"/>
+  </data>
+</openerp>

@@ -1,0 +1,63 @@
+CREATING XML FILES
+===========================================================================================
+ If your program needs to write some output as an XML document, the lxml package makes 
+ this operation easy.
+
+1) First import the lxml package. Here is one way:
+   from lxml import etree
+
+2) Create the root element. For example, suppose you're creating a Web page; 
+   the root element is html. Use the etree.Element() constructor to build that element.
+   page = etree.Element('html')
+
+3) Next, use the etree.ElementTree() constructor to make a new document tree, 
+   using our html element as its root:
+   doc = etree.ElementTree(page)
+   To lahko naredim tudi na koncu, ko root elementu dodam vse subelemente
+
+4) The etree.SubElement() constructor is perfect for adding new child elements to our document. 
+   Here's the code to add a head element, and then a body as element, as new children of the 
+   html element:
+   headElt = etree.SubElement(page, 'head')
+   bodyElt = etree.SubElement(page, 'body')
+
+5) Your page will need a title element child under the head element. 
+   Add text to this element by storing a string in its .text attribute:
+    title = etree.SubElement(headElt, 'title')
+    title.text = 'Your page title here'
+    Tekst lahko dodam sub-elementu, sele potem, ko ga skreiram. Drugace je z
+    attributi. (tocka 6)
+
+6) To supply attribute values, use keyword arguments to the SubElement() 
+   constructor. For example, suppose you want a stylesheet link inside the head element that 
+   looks like this:
+   <link rel='stylesheet' href='mystyle.css' type='text/css'>
+   This code would do it:
+   linkElt = etree.SubElement(headElt, 'link', rel='stylesheet',
+                                               href='mystyle.css', 
+                                               type='text/css')
+
+7) Continue building your new document using the various functions described in Section 7, 
+  “Features of the etree module” and Section 9, 
+   “class Element: One element in the tree”.
+
+8) When the document is completely built, write it to a file using the ElementTree 
+   instance's .write() method, which takes a file argument.
+   outFile = open('homemade.xml', 'w')
+   doc.write(outFile)
+
+9) Ce hocem dokument, ki je tipa EleementTree sprementiti v string, naredim tako:
+  xml_tree = writer.createXml()
+  xml_data = etree.tostring(xml_tree, 
+                            encoding='UTF-8', 
+                            ml_declaration=True, 
+                            pretty_print=True)
+  xml_data = base64.encodestring(xml_data)
+  self.write({'state': 'get', 'download_file': xml_data, 'name': 'zap.xml'})
+
+  download_file je v modelu definiran kot:
+  download_file = fields.Binary('Zap1 file', readonly=True)
+    
+READING XML FILES
+=======================================================
+

@@ -1,0 +1,47 @@
+GENERAL SYNTAX
+try:
+    try_suite
+except exception_group1 as variable1:
+    except_suite1
+...
+except exception_groupN as variableN:
+    except_suiteN
+else: # izvede se, ce je bil tyr_suite izvedeno normalno
+    else_suite
+finally:  # izvede se vedno
+    finally_suite
+
+For each group, the as variable part is optional; if used, the variable 
+contains the exception that occurred, and can be accessed in
+the exception block’s suite.
+
+
+Vrste exceptionov
+Exception
+    ArithmeticError
+    EnvironmentError
+        IOError  # pri odpiranju datotek
+        OSError
+    EOFError
+    LookupError
+        IndexError # index out of bounds
+        KeyError   # napacen kljuc v dictionar
+    ValueError # nastane ce s funkcijo index iscem v listu element
+               # ki ne obstaja
+def list_find(lst, target):
+    try:
+        index = lst.index(target)
+    except ValueError:
+        index = -1
+
+    return index
+
+
+CUSTOM EXCEPTIONS
+===================
+Exceptions are classes
+
+class myCustomException(baseException):
+    pass
+
+The base class should be Exception or a class that inherits from Exception .
