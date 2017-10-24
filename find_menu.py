@@ -7,7 +7,6 @@ def main(argv):
     # conn_string = "dbname='%s'" % "mmsfr"
     conn_string = "dbname='%s'" % db_name
     conn = psycopg2.connect(conn_string)
-    print 'I am connected'
     ssql = """
         SELECT IUM.sequence, IUM.name,  IMD.name AS odoo_name, IMDP.name AS parent_name, IMD.module
         FROM ir_ui_menu IUM 

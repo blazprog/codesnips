@@ -26,7 +26,7 @@ CREATING XML FILES
     title = etree.SubElement(headElt, 'title')
     title.text = 'Your page title here'
     Tekst lahko dodam sub-elementu, sele potem, ko ga skreiram. Drugace je z
-    attributi. (tocka 6)
+    attributi. (tocka 6) 
 
 6) To supply attribute values, use keyword arguments to the SubElement() 
    constructor. For example, suppose you want a stylesheet link inside the head element that 
