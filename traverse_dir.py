@@ -15,6 +15,7 @@ def print_dir(dir_name, whitespaces=3):
 
 
 if __name__ == '__main__':
+    D
     dir_name = '/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_payroll'
     print dir_name
     print_dir(dir_name)

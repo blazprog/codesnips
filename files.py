@@ -33,4 +33,6 @@ try:
         for line in fin:
             fout.write(process(line))
 except EnvironmentError as err:
+    D
+    D
     print(err)
