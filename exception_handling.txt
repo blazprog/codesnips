@@ -45,3 +45,7 @@ class myCustomException(baseException):
     pass
 
 The base class should be Exception or a class that inherits from Exception .
+
+RAISING EXCEPTIONS
+===================
+raise ValueError('oops')

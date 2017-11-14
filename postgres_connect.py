@@ -3,8 +3,10 @@ import psycopg2
 def main():
 	#Define our connection string
 	conn_string = "host='10.0.0.9' dbname='mm-prezentacija' user='odoo8' password='odoo8'"
- 
-	# print the connection string we will use to connect
+
+    # peer authentication
+	conn_string = "dbname='sat'"
+
 	print ("Connecting to database\n	->%s" % (conn_string))
  
 	# get a connection, if a connect cannot be made an exception will be raised here
