@@ -61,11 +61,3 @@ def shrink_list(dict_list, compare_fields, sum_field):
 shrink_list(dict_list, compare_fields, sum_field)
 for d in (dict_list):
     print (d)
-
-
-
-
-
-
-
-

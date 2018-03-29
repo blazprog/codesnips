@@ -8,6 +8,9 @@ pattern_search = r"\b(?P<lhs>\w+)\b\s+=\s+(?P<rhs>\w+)\b"
 pattern_replace = r"\g<rhs> = \g<lhs>"
 
 
+re = re.compile(pattern_search)
+
+
 new_text = re.sub(pattern_search, pattern_replace, old_text)
 print new_text
 
@@ -19,11 +22,14 @@ print new_text
 # print new_text
 
 
+
+import os
+import re
 code = """
 class MyBraveModel(models.Model)
     _name = 'my_brave_model'
     _description = 'My Brave Model'
-    name=fields.Char()
+    name=fields.char()
     age =          fields.Char()
     born         = fields.Date()
 """    
@@ -34,10 +40,26 @@ regex_field_list = re.compile(field_names_pattern)
 field_list  = regex_field_list.findall(code)
 print field_list
 
+field_names_verbose_pattern = """
+    (?P<field_name>\w+)                         #variable name
+    \s*                                         #one or more spaces
+     =                                          #equal sign 
+    \s*                                         #one or more spaces
+    fields[.]
+"""
+regex_field_list = re.compile(field_names_pattern, re.VERBOSE)
+field_list  = regex_field_list.findall(code)
+print field_list
+mo = regex_field_list.match(code)
+print mo
+
+
 model_name_pattern = r"_name\s*=\s*'(?P<model_name>\w+)'"
 model_name_regex = re.compile(model_name_pattern)
 model_name = model_name_regex.findall(code) # vrne list
 print model_name
+
+
 
 model_description_pattern = r"_description\s*=\s*'(?P<model_description>.+)'"
 model_description_regex = re.compile(model_description_pattern)

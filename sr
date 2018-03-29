@@ -1,0 +1,18 @@
+/home/blaz/projekti/odoo/odoo/addons/account/account.py     _name = "account.move"
+1161
+/home/blaz/projekti/odoo/odoo/addons/account_sequence/account_sequence.py     _inherit = 'account.move'
+25
+/home/blaz/projekti/odoo/mentis/addons-extra/account_reversal/account_reversal.py     _inherit = "account.move"
+29
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_base/models/account_move.py     _inherit = 'account.move'
+27
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_date_done/models/account_move.py     _inherit = 'account.move'
+26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_landed_costs/models/account_move.py     _inherit = 'account.move'
+26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_storno/models/account_move.py     _inherit = 'account.move'
+28
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_stock_landed_costs/models/account_move.py     _inherit = 'account.move'
+26
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_security_extensions/models/account_move.py     _inherit = 'account.move'
+26

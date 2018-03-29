@@ -1,0 +1,118 @@
+/home/blaz/projekti/odoo/odoo/addons/account_analytic_plans/account_analytic_plans.py     _name = "account.invoice"
+367
+/home/blaz/projekti/odoo/odoo/addons/account_analytic_plans/account_analytic_plans.py     _inherit = "account.invoice"
+368
+/home/blaz/projekti/odoo/odoo/addons/l10n_be_invoice_bba/invoice.py     _inherit = 'account.invoice'
+36
+/home/blaz/projekti/odoo/odoo/addons/account_voucher/invoice.py     _inherit = 'account.invoice'
+25
+/home/blaz/projekti/odoo/odoo/addons/sale/sale.py     _inherit = 'account.invoice'
+1281
+/home/blaz/projekti/odoo/odoo/addons/purchase/purchase.py     _inherit = 'account.invoice'
+1680
+/home/blaz/projekti/odoo/odoo/addons/portal_sale/portal_sale.py     _inherit = 'account.invoice'
+87
+/home/blaz/projekti/odoo/odoo/addons/sale_layout/models/sale_layout.py     _inherit = 'account.invoice'
+60
+/home/blaz/projekti/odoo/odoo/addons/account_payment/account_invoice.py     _inherit = 'account.invoice'
+25
+/home/blaz/projekti/odoo/odoo/addons/l10n_be_intrastat/l10n_be_intrastat.py     _inherit = "account.invoice"
+24
+/home/blaz/projekti/odoo/odoo/addons/account/account_invoice.py     _name = "account.invoice"
+50
+/home/blaz/projekti/odoo/odoo/addons/account/edi/invoice.py     _inherit = 'account.invoice'
+71
+/home/blaz/projekti/odoo/odoo/addons/hr_timesheet_invoice/hr_timesheet_invoice.py     _inherit = "account.invoice"
+338
+/home/blaz/projekti/odoo/odoo/addons/account_asset/account_asset_invoice.py     _inherit = 'account.invoice'
+27
+/home/blaz/projekti/odoo/odoo/addons/product_email_template/models/invoice.py     _inherit = 'account.invoice'
+6
+/home/blaz/projekti/odoo/odoo/addons/membership/membership.py     _inherit = 'account.invoice'
+477
+/home/blaz/projekti/odoo/odoo/addons/account_anglo_saxon/invoice.py     _inherit = "account.invoice"
+197
+/home/blaz/projekti/odoo/odoo/addons/warning/warning.py     _inherit = 'account.invoice'
+115
+/home/blaz/projekti/odoo/mentis/addons-extra/account_periodical_invoicing/models/periodical_invoicing.py         comodel_name='account.invoice', string='Invoice', ondelete='cascade')
+548
+/home/blaz/projekti/odoo/mentis/addons-extra/invoice_fiscal_position_update/invoice_fiscal_position_update/account_invoice.py     _inherit = "account.invoice"
+28
+/home/blaz/projekti/odoo/mentis/addons-extra/account_invoice_tax_auto_update/account_invoice.py     _inherit = 'account.invoice'
+9
+/home/blaz/projekti/odoo/mentis/addons-extra/sale_documents_comments/models/account.py     _inherit = 'account.invoice'
+9
+/home/blaz/projekti/odoo/mentis/addons-extra/magento_bridge/core_overrides.py     _inherit = 'account.invoice'
+393
+/home/blaz/projekti/odoo/mentis/addons-extra/account_invoice_merge/models/account_invoice.py     _inherit = "account.invoice"
+12
+/home/blaz/projekti/odoo/mentis/addons-extra/account_invoice_supplier_ref_unique/account_invoice.py     _inherit = "account.invoice"
+29
+/home/blaz/projekti/odoo/mentis/addons-extra/sale_discount_total/models/account_invoice.py     _inherit = "account.invoice"
+14
+/home/blaz/projekti/odoo/mentis/addons-extra/account_invoice_sale_link/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-extra/account_invoice_report_by_partner/models/account.py     _inherit = 'account.invoice'
+22
+/home/blaz/projekti/odoo/mentis/addons-extra/account_fiscal_position_rule/models/account_invoice.py     _inherit = 'account.invoice'
+10
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_claim_from_product_invoice/models/account_invoice.py     _inherit = 'account.invoice'
+7
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_base/models/account_invoice.py     _inherit = "account.invoice"
+30
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_landed_costs/models/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_tax_reports/models/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/l10n_si_tax_registry/models/account_invoice.py     _name = 'account.invoice'
+25
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/l10n_si_tax_registry_point_of_sale/models/account_invoice.py     _name = 'account.invoice'
+24
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/l10n_si_tax_registry_point_of_sale/models/account_invoice.py     _inherit = 'account.invoice'
+25
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_cassa_sconto/models/account_invoice.py     _inherit = "account.invoice"
+28
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_eslog/models/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_picking_extensions/models/account_invoice.py     _inherit = "account.invoice"
+28
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_sale_profit/models/account_invoice.py     _inherit = 'account.invoice'
+27
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_recived_mail_record/models/account_invoice.py     _inherit = "account.invoice"
+4
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_invoice_merge_lines/models/invoice.py     _inherit = 'account.invoice'
+34
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_storno/models/account_invoice.py     _inherit = "account.invoice"
+28
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_product_cost_recalculation/models/account_invoice.py     _inherit = "account.invoice"
+27
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_bs_reporting/models/account_invoice.py     _inherit = "account.invoice"
+27
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_reports/models/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_sale_extensions/models/account_invoice.py     _inherit = "account.invoice"
+27
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_account_extensions/models/account_invoice.py     _inherit = "account.invoice"
+27
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_stock_landed_costs/models/account_invoice.py     _inherit = 'account.invoice'
+27
+/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_security_extensions/models/account_invoice.py     _inherit = 'account.invoice'
+26
+/home/blaz/projekti/odoo/mentis/addons-internal/mentis_customized_views/models/account_invoice.py     _inherit = "account.invoice"
+27
+/home/blaz/projekti/odoo/oca/bank_payment/account_banking_mandate/models/account_invoice.py     _inherit = 'account.invoice'
+10
+/home/blaz/projekti/odoo/oca/bank_payment/account_payment_blocking/model/account_invoice.py     _inherit = "account.invoice"
+26
+/home/blaz/projekti/odoo/oca/bank_payment/setup/account_banking_mandate/odoo_addons/account_banking_mandate/models/account_invoice.py     _inherit = 'account.invoice'
+10
+/home/blaz/projekti/odoo/oca/bank_payment/setup/account_payment_blocking/odoo_addons/account_payment_blocking/model/account_invoice.py     _inherit = "account.invoice"
+26
+/home/blaz/projekti/odoo/oca/bank_payment/setup/account_banking_payment_export/odoo_addons/account_banking_payment_export/models/account_invoice.py     _inherit = 'account.invoice'
+10
+/home/blaz/projekti/odoo/oca/bank_payment/setup/account_payment_partner/odoo_addons/account_payment_partner/models/account_invoice.py     _inherit = 'account.invoice'
+9
+/home/blaz/projekti/odoo/oca/bank_payment/account_banking_payment_export/models/account_invoice.py     _inherit = 'account.invoice'
+10
+/home/blaz/projekti/odoo/oca/bank_payment/account_payment_partner/models/account_invoice.py     _inherit = 'account.invoice'
+9

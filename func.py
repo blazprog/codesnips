@@ -20,3 +20,6 @@ print result
 func = result[0]
 args = result[1:]
 print func(args)
+
+list = ['1', '2', '3']
+print 'sum of numbers in list ',  sum([int(e) for e in list])

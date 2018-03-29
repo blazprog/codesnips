@@ -33,4 +33,5 @@ def main(argv):
 if __name__ == '__main__':
     for arg in sys.argv:
         print arg
+    print 'new vim is better than previous' 
     main(sys.argv)
