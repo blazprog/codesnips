@@ -8,7 +8,7 @@ pattern_search = r"\b(?P<lhs>\w+)\b\s+=\s+(?P<rhs>\w+)\b"
 pattern_replace = r"\g<rhs> = \g<lhs>"
 
 
-re = re.compile(pattern_search)
+changer = re.compile(pattern_search)
 
 
 new_text = re.sub(pattern_search, pattern_replace, old_text)
@@ -34,7 +34,6 @@ class MyBraveModel(models.Model)
     born         = fields.Date()
 """    
 
-
 field_names_pattern = r"(?P<field_name>\w+)\s*=\s*fields[.]"
 regex_field_list = re.compile(field_names_pattern)
 field_list  = regex_field_list.findall(code)
@@ -45,8 +44,9 @@ field_names_verbose_pattern = """
     \s*                                         #one or more spaces
      =                                          #equal sign 
     \s*                                         #one or more spaces
-    fields[.]
+    fields[.]                                   #fields.<FieldType>
 """
+
 regex_field_list = re.compile(field_names_pattern, re.VERBOSE)
 field_list  = regex_field_list.findall(code)
 print field_list
@@ -195,14 +195,3 @@ def create_odoo_gui(model_name, field_list, model_description=''):
         raise UserError(message)
 
 create_odoo_gui(model_name, field_list, model_description)
-
-
-
-
-
-
-
-
-
-
-

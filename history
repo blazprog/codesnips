@@ -1,0 +1,1000 @@
+  995  greppy hr.user
+  996  greppy res.users
+  997  greppy res.users > sr && vim sr
+  998  ssh linux03
+  999  emacs
+ 1000  cd ~/.emacs.d/
+ 1001  ls
+ 1002  vim init.el
+ 1003  cd ..
+ 1004  cd codesnips/
+ 1005  ls
+ 1006  emacs list.py
+ 1007  vim merge_list.py 
+ 1008  clear
+ 1009  emacs merge_list.py 
+ 1010  vim merge_list.py 
+ 1011  ifconfig
+ 1012  ssh linux03
+ 1013  ssh linux03
+ 1014  cd projekti/odoo/mentis/
+ 1015  greppy update_account_line_values
+ 1016  vim addons-openerpsl/mentis_stock_picking_extensions/models/stock_move.py
+ 1017  ssh linux03
+ 1018  greppy return_action
+ 1019  greppy action
+ 1020  greppy reopen
+ 1021  vi addons-intercom/mentis_intercom_change_delivery_date/models/dates_on_lines.py
+ 1022  clear
+ 1023  ssh linux01
+ 1024  ssh linux03
+ 1025  cd projekti/odoo
+ 1026  grep -R --include='*.js' do_action
+ 1027  vim odoo/addons/web_view_editor/static/src/js/view_editor.js
+ 1028  cd ~/codesnips/
+ 1029  ls
+ 1030  python find_menu relax Attendance
+ 1031  python find_menu.py relax Attendance
+ 1032  cd ..
+ 1033  cd projekti/odoo/mentis/
+ 1034  greppy res.user
+ 1035  greppy self.env.user
+ 1036  greppy get_working_hours
+ 1037  clear
+ 1038  greppy get_working_hours > sr && vim sr
+ 1039  get_working_hours
+ 1040  greppy get_working_hours
+ 1041  greppy get_working_hours > sr && vim sr
+ 1042  vim sr
+ 1043  clear
+ 1044  cd projekti/odoo
+ 1045  greppy account_invoice_line_stock_move
+ 1046  greppy account_invoiceline_stock_move
+ 1047  greppy stock_move_rel
+ 1048  grepxml stock_move_rel
+ 1049  greppy month_working_hours
+ 1050  greppy get_month_working_hours
+ 1051  greppy get_working_hours
+ 1052  vim odoo/addons/resource/resource.py
+ 1053  clear
+ 1054  greppy get_working_hours
+ 1055  greppy get_working_hours > sr && vim sr
+ 1056  clear
+ 1057  cd mentis/
+ 1058  ssh linux03
+ 1059  cd projekti/odoo/mentis/
+ 1060  greppy button_validate
+ 1061  psql postgres
+ 1062  greppy move_line_get
+ 1063  greppy koef
+ 1064  vim addons-openerpsl/mentis_stock_account/models/account_invoice_line.py
+ 1065  greppy koef
+ 1066  vim addons-openerpsl/mentis_stock_picking_extensions/models/stock_move.py
+ 1067  greppy _get_invoice_line_vals
+ 1068  vim addons-openerpsl/mentis_stock_account/models/stock_move.py
+ 1069  greppy _get_invoice_line_vals
+ 1070  greppy _get_invoice_line_vals > sr && vim sr
+ 1071  cd ..
+ 1072  greppy _get_invoice_line_vals > sr && vim sr
+ 1073  c;ear
+ 1074  clear
+ 1075  cls
+ 1076  cd projekti/odoo
+ 1077  cd mentis
+ 1078  greppy calculate
+ 1079  greppy compute
+ 1080  cd addons-openerpsl/
+ 1081  cd mentis_potni_nalogi/
+ 1082  cd models
+ 1083  ls -l
+ 1084  vim travel_order.py
+ 1085  greppy related
+ 1086  cd ..
+ 1087  cd mentis_hr_attendance_extensions/
+ 1088  greppy raise
+ 1089  cd ..
+ 1090  greppy reopen
+ 1091  vim mentis_sale_profit/models/recalculate_costs_wizard.py
+ 1092  clear
+ 1093  cd mentis
+ 1094  greppy INSERT
+ 1095  greppy insert
+ 1096  greppy insert into
+ 1097  greppy "insert into"
+ 1098  cd projekti/odoo/mentis/
+ 1099  grepxml view_id
+ 1100  vim addons-internal/mentis_customized_views/views/mentis_insurance_account_invoice_issued_view.xml
+ 1101  cd ..
+ 1102  vim
+ 1103  clear
+ 1104  greppy view_id
+ 1105  vim oca/bank_payment/account_banking_payment_transfer/model/account_payment.py
+ 1106  ssh linux03
+ 1107  psql \l
+ 1108  psql /l
+ 1109  psql postgres 
+ 1110  ssh linux03
+ 1111  more read_o.py 
+ 1112  cp read_o.py test_insert.py
+ 1113  vim test_insert.py 
+ 1114  python test_insert.py 
+ 1115  gf
+ 1116  fg
+ 1117  python test_insert.py 
+ 1118  fg
+ 1119  python test_insert.py 
+ 1120  fg
+ 1121  cd ~/
+ 1122  cd projekti/odoo/mentis/
+ 1123  vim
+ 1124  cd addons-openerpsl/
+ 1125  vim
+ 1126  grepxml oe_inline
+ 1127  grepxml label
+ 1128  cd ..
+ 1129  grepxml line
+ 1130  clear
+ 1131  grepxml context
+ 1132  greppy context
+ 1133  greppy self.env.context
+ 1134  clear
+ 1135  ssh linux03
+ 1136  cd projekti/
+ 1137  md attendance
+ 1138  mkdir attendance
+ 1139  cd attendance/
+ 1140  vim test.txt
+ 1141  cd codesnips/
+ 1142  ls -l
+ 1143  more postgres_connect.py 
+ 1144  ls -l
+ 1145  greppy insert
+ 1146  more read_o.py 
+ 1147  psql ozegov
+ 1148  cd projekti/odoo
+ 1149  greppy _order
+ 1150  vun
+ 1151  vim
+ 1152  clear
+ 1153  ssh linux03
+ 1154  clear
+ 1155  cd mentis
+ 1156  vim
+ 1157  clear
+ 1158  ssh linux03
+ 1159  g++
+ 1160  gcc
+ 1161  g++ --help
+ 1162  clear
+ 1163  greppy print
+ 1164  vim
+ 1165  clear
+ 1166  psql -l
+ 1167  psql postgres
+ 1168  ssh linux03
+ 1169  cd projekti/odoo
+ 1170  cd mentis
+ 1171  grepxml required
+ 1172  ssh linux03
+ 1173  ifconfig
+ 1174  greppy koef
+ 1175  ssh linux01
+ 1176  cd projekti/odooo
+ 1177  cd projekti/odoo
+ 1178  cd mentis
+ 1179  vim
+ 1180  clear
+ 1181  cd projekti/odoo
+ 1182  vim konti
+ 1183  clear
+ 1184  g++
+ 1185  cd ..
+ 1186  cd cpp
+ 1187  cd ..
+ 1188  cd cpp
+ 1189  ls -l
+ 1190  cd ~
+ 1191  cd projekti/odoo
+ 1192  vim konti 
+ 1193  clear
+ 1194  ssh linux01
+ 1195  cd projekti/odoo
+ 1196  ssh linux03
+ 1197  grepxml context_timestamp
+ 1198  cd ~/
+ 1199  cd marave
+ 1200  ls
+ 1201  ls -l
+ 1202  type marave
+ 1203  ls
+ 1204  cd marave
+ 1205  pip install marave
+ 1206  easy_install marave
+ 1207  clear
+ 1208  cd ..
+ 1209  cd projekti/odoo
+ 1210  grepxml t-call
+ 1211  cd odoo
+ 1212  grepxml t-call
+ 1213  cd codesnips/
+ 1214  python find_menu.py 'Attendance Reasons'
+ 1215  python find_menu.py relax 'Attendance Reasons'
+ 1216  python find_menu.py relax_produkcija 'Attendance Reasons'
+ 1217  python find_menu.py relax_produkcija 'Departments'
+ 1218  cd ~
+ 1219  cd projekti/odoo
+ 1220  cd mentis/
+ 1221  cd addons-openerpsl/
+ 1222  cd mentis_potni_nalogi/
+ 1223  greppy One2many
+ 1224  cd ..
+ 1225  greppy One2many
+ 1226  cd ..
+ 1227  cd ~/
+ 1228  cd codesnips/
+ 1229  python searchpy.py wizard.valuation.history
+ 1230  python find_menu.py mentis_test_kalkulacija "Current Inventory Valuation"
+ 1231  cd ..
+ 1232  cd projekti/odoo
+ 1233  grepxml menu_action_history_tree
+ 1234  vim odoo/addons/stock_account/wizard/stock_valuation_history_view.xml
+ 1235  cd ~/codesnips/
+ 1236  python searchpy.py  stock.history
+ 1237  cd ~/projekti/odoo
+ 1238  greppy stock.picking
+ 1239  greppy open_table
+ 1240  vim odoo/addons/stock_account/wizard/stock_valuation_history.py
+ 1241  gvim odoo/addons/stock_account/wizard/stock_valuation_history.py
+ 1242  clear
+ 1243  cd ~/codesnips/
+ 1244  python searchpy.py stock.history
+ 1245  cd ~/projekti/odoo
+ 1246  greppy stock.history
+ 1247  ssh linux03
+ 1248  cd projekti/odoo
+ 1249  greppy editable
+ 1250  grepxml editable
+ 1251  greppy working_hours_on_day
+ 1252  vim
+ 1253  clear
+ 1254  vim
+ 1255  ssh linux03
+ 1256  cd projekti/odoo
+ 1257  vim
+ 1258  ls -
+ 1259  ls -l
+ 1260  cd Downloads/
+ 1261  cd clion/
+ 1262  ls -l
+ 1263  tar --help
+ 1264  ls
+ 1265  tar xvfz CLion-2017.3.4.tar.gz
+ 1266  ls
+ 1267  cd clion-2017.3.4/
+ 1268  ls
+ 1269  cd bin
+ 1270  ls
+ 1271  ./clion
+ 1272  sudo clion.sh
+ 1273  sudo ./clion.sh
+ 1274  cd ..
+ 1275  cd ~/projekti/odoo
+ 1276  cd ~/Downloads/clion/bin
+ 1277  cd ~/Downloads/clion/
+ 1278  ls
+ 1279  cd clion-2017.3.4/
+ 1280  cd bin
+ 1281  ls
+ 1282  ./clion.sh 
+ 1283  cd ~
+ 1284  cd projekti/
+ 1285  ls
+ 1286  more opis_programov.txt 
+ 1287  history
+ 1288  vim
+ 1289  cd odoo
+ 1290  greppy open_table
+ 1291  gvim odoo/addons/stock_account/wizard/stock_valuation_history.py
+ 1292  cd projekti/odoo
+ 1293  grepxml oe_read_only
+ 1294  cd projekti/odoo
+ 1295  cd mentis/addons-openerpsl/
+ 1296  cd mentis_payroll
+ 1297  greppy get_leaves_days_hours
+ 1298  vim models/hr_health_insurance_compensation.py
+ 1299  clear
+ 1300  cd ~/codesnips/
+ 1301  ls -l
+ 1302  cd regex/
+ 1303  ls
+ 1304  more regex_test.py 
+ 1305  vim regex_test.py 
+ 1306  clear
+ 1307  ssh linux01
+ 1308  cd projekti/odoo/
+ 1309  greppy get_month_working_hours
+ 1310  greppy get_month_working_days
+ 1311  cd mentis/
+ 1312  cd addons-openerpsl/
+ 1313  cd mentis_payroll
+ 1314  greppy get_month_working_days
+ 1315  greppy get_valid_contract
+ 1316  greppy valid_contract
+ 1317  cd ..
+ 1318  greppy year
+ 1319  greppy order
+ 1320  greppy desc
+ 1321  cd projekti/odoo
+ 1322  greppy is_holiday
+ 1323  greppy hr.holidays.public
+ 1324  vim mentis/addons-openerpsl/mentis_hr_timesheet_extensions/hr_attendance.py
+ 1325  greppy get_month_working_days
+ 1326  vim mentis/addons-openerpsl/mentis_hr_timesheet_extensions/hr_attendance.pycd ..
+ 1327  ssh linux03
+ 1328  ssh linux01
+ 1329  cd projekti/odoo
+ 1330  cd erp_peek/
+ 1331  vim payroll_import.py 
+ 1332  python payroll_import.py 
+ 1333  vim payroll_import.py 
+ 1334  python payroll_import.py 
+ 1335  vim payroll_import.py 
+ 1336  python payroll_import.py 
+ 1337  M Priljubljene
+ 1338  q Filtri
+ 1339  w Združeno po...
+ 1340  Shrani trenutni filter
+ 1341  Napredno iskanje
+ 1342  Dodaj v Nadzorno Ploščo
+ 1343  Skupina 
+ 1344  Vsili obdobje
+ 1345  Številka
+ 1346  Datum DUR
+ 1347  Zapade dne
+ 1348  Kupec
+ 1349  Prodajalec
+ 1350  Izvorni dokument
+ 1351  Prihodek
+ 1352  Nabavni stroški
+ 1353  Posredni stroški
+ 1354  Znesek dobička
+ 1355  Procent dobička
+ 1356  Stanje
+ 1357  22786166,3918258412,95674816,233699938,44
+ 1358  01/2013 (194)317222,730,000,00317027,23100,00
+ 1359  02/2013 (178)339594,080,000,00338660,02100,00
+ 1360  03/2013 (203)439290,480,000,00436702,87100,00
+ 1361  04/2013 (184)378884,080,000,00378198,68100,00
+ 1362  05/2013 (181)369184,070,000,00368702,87100,00
+ 1363  06/2013 (172)331749,960,000,00331061,64100,00
+ 1364  ssh linux01
+ 1365  cd ..
+ 1366  cd odoo
+ 1367  cd mentis/
+ 1368  greppy max_leave_duration
+ 1369  cd projekti/odoo
+ 1370  cd mentis/
+ 1371  greppy working_leave
+ 1372  vim addons-openerpsl/mentis_payroll/models/hr_payslip.py
+ 1373  clear
+ 1374  greppy working_leave
+ 1375  grepxml working_leave
+ 1376  clear
+ 1377  grepxml working_leave
+ 1378  greppy working_leave
+ 1379  du --help
+ 1380  du -h addons-openerpsl/
+ 1381  cd ..
+ 1382  du mentis
+ 1383  cd mentis/
+ 1384  du -h addons-openerpsl --max-depth=0
+ 1385  tar -zcvf odoo_openerpsl.tar.gz ./addons-openerpsl --exclude-vcs
+ 1386  ls
+ 1387  ls *.gz -l
+ 1388  ls *.gz -l --h
+ 1389  ssh linux03
+ 1390  cd projekti/odoo
+ 1391  greppy iop_wizard
+ 1392  vim mentis/addons-intercom/mentis_partner_extensions/models/partner_iop.py
+ 1393  cd projekti/odoo
+ 1394  greppy working_hours_on_day
+ 1395  vim 
+ 1396  greppy _get_number_of_days
+ 1397  vim odoo/addons/hr_holidays/hr_holidays.py
+ 1398  cd mentis/
+ 1399  vim
+ 1400  ls *.cpp
+ 1401  ls
+ 1402  fg
+ 1403  ls -l
+ 1404  g++ hellp.cp 
+ 1405  fg
+ 1406  g++ hellp.cp 
+ 1407  fg
+ 1408  g++ hellp.cp 
+ 1409  fg
+ 1410  g++ hellp.cp 
+ 1411  fg
+ 1412  g++ hellp.cp 
+ 1413  fg
+ 1414  g++ hellp.cp 
+ 1415  clear
+ 1416  g++ hellp.cp 
+ 1417  fg
+ 1418  g++ hellp.cp 
+ 1419  fg
+ 1420  g++ hellp.cp 
+ 1421  fg
+ 1422  g++ hellp.cp 
+ 1423  fg
+ 1424  clear
+ 1425  g++ hellp.cp 
+ 1426  ls
+ 1427  ./a.out
+ 1428  clear
+ 1429  vim tabs
+ 1430  clear
+ 1431  ssh linux03
+ 1432  cd projekti/odoo/
+ 1433  vim placne_spremenljivke
+ 1434  clear
+ 1435  cd projekti/odoo
+ 1436  greppy _get_number_of_days
+ 1437  greppy initiating_party_identifier
+ 1438  vim
+ 1439  clear
+ 1440  grepxml wage_type
+ 1441  greppy wage_type
+ 1442  greppy work_duration
+ 1443  greppy _get_work_duration_current
+ 1444  vim mentis/addons-openerpsl/mentis_payroll/models/hr_contract.py:
+ 1445  vim mentis/addons-openerpsl/mentis_payroll/models/hr_contract.py
+ 1446  clear
+ 1447  cd projekti
+ 1448  cd odoo
+ 1449  greppy less then
+ 1450  cd mentis/
+ 1451  gvim
+ 1452  ssh linux03
+ 1453  cd codesnips/
+ 1454  python search.py wizard.valuation.history
+ 1455  python searchpy.py wizard.valuation.history
+ 1456  cd ~/projekti/odoo
+ 1457  greppy _get_inventory_value
+ 1458  greppy get_history_price
+ 1459  ls -l
+ 1460  cd erp_peek/
+ 1461  ls -l
+ 1462  vim payroll_import.py 
+ 1463  python payroll_import.py 
+ 1464  cd ..
+ 1465  vim placne_spremenljivke 
+ 1466  cd projekti/odoo/
+ 1467  greppy _get_number_of_dates
+ 1468  greppy _get_number_of_days
+ 1469  cd projekti/odoo
+ 1470  cd mentis/
+ 1471  gvim
+ 1472  vim
+ 1473  vi
+ 1474  clear
+ 1475  greppy working_hours_on_day
+ 1476  cd ..
+ 1477  working_hours_on_day
+ 1478  greppy working_hours_on_day
+ 1479  vim odoo/addons/resource/resource.py
+ 1480  greppy get_leaves_days_hours
+ 1481  greppy annual_leave
+ 1482  cd mentis/
+ 1483  grepxml readonly
+ 1484  vim
+ 1485  grepxml edit_holiday_new
+ 1486  grepxml label
+ 1487  cd ..
+ 1488  grepxml style
+ 1489  grepxml style > sr && vim sr
+ 1490  clear
+ 1491  ifconfig
+ 1492  cd projekti/odoo/
+ 1493  ls
+ 1494  cd odoo/addons/
+ 1495  greppy psycopg
+ 1496  cd ..
+ 1497  greppy psycopg
+ 1498  cd mentis/addons-openerpsl/mentis_potni_nalogi/
+ 1499  greppy related
+ 1500  grepxml attrs
+ 1501  cd ../ ..
+ 1502  cd ..
+ 1503  clear
+ 1504  ifconfig
+ 1505  greppy get_leaves_days_hours
+ 1506  vim mentis/addons-openerpsl/mentis_payroll/models/hr_payslip.py
+ 1507  clear
+ 1508  cls
+ 1509  cd codesnips/
+ 1510  vim timezone.py
+ 1511  cd ~/projekti/odoo
+ 1512  cd hr_holidays
+ 1513  cd addons
+ 1514  cd odoo/addons/hr_holidays/
+ 1515  clear
+ 1516  greppy number_of_days
+ 1517  greppy number_of_days = 
+ 1518  vim report/hr_holidays_report.py
+ 1519  clear
+ 1520  vim
+ 1521  cd ..
+ 1522  vim
+ 1523  greppy _chek_name_size
+ 1524  greppy _check_name_size
+ 1525  greppy get_working_hours
+ 1526  vim
+ 1527  cd projekti/odoo
+ 1528  vim
+ 1529  clear
+ 1530  greppy date_stop
+ 1531  oca/server-tools/super_calendar/models/super_calendar_configurator.py
+ 1532  vim oca/server-tools/super_calendar/models/super_calendar_configurator.py
+ 1533  vim
+ 1534  cd ~/codesnips/
+ 1535  vim timezone.py 
+ 1536  cd ..
+ 1537  cd projekti/odoo
+ 1538  greppy tzinfo
+ 1539  cd mentis/addons-openerpsl/
+ 1540  vimgrep
+ 1541  vim
+ 1542  clear
+ 1543  cd ..
+ 1544  cd projekti/odoo
+ 1545  cd mentis/
+ 1546  greppy get_leave_days_hours
+ 1547  greppy get_leaves_days_hours
+ 1548  vim addons-openerpsl/mentis_payroll/models/hr_health_insurance_compensation.py:
+ 1549  vim addons-openerpsl/mentis_payroll/models/hr_health_insurance_compensation.py
+ 1550  greppy sudo
+ 1551  clear
+ 1552  ssh linux03
+ 1553  cd projekti/odoo
+ 1554  vim
+ 1555  cd projekti/odoo
+ 1556  greppy overlap
+ 1557  cd mentis
+ 1558  greppy strptime
+ 1559  cd projekti/odoo/mentis/
+ 1560  grepxml text-aling
+ 1561  grepxml text-align
+ 1562  clear
+ 1563  greppy groupby
+ 1564  vim addons-openerpsl/mentis_account_cash_statement/models/account_bank_statement.py
+ 1565  cd ~/codesnips/
+ 1566  ls
+ 1567  greppy groupby
+ 1568  cd ..
+ 1569  cd projekti
+ 1570  greppy groupby
+ 1571  cd odoo
+ 1572  ls -l
+ 1573  cd erp_peek/
+ 1574  ls
+ 1575  cd ..
+ 1576  cd  mentis/
+ 1577  ls -l
+ 1578  greppy groupby
+ 1579  cd ~/codesnips/
+ 1580  ls -l
+ 1581  cd groupby/
+ 1582  ls
+ 1583  more groupby_example.py 
+ 1584  cd ..
+ 1585  git -add
+ 1586  git -a
+ 1587  ls
+ 1588  git status
+ 1589  git add
+ 1590  git add .
+ 1591  git status
+ 1592  git commit -m "nove datotieke"
+ 1593  git push
+ 1594  ls -l
+ 1595  more simple_example.py 
+ 1596  ls
+ 1597  more sample_hierarchy.py 
+ 1598  cd ~/projekti/odoo/erp_peek/
+ 1599  python payroll_import.py 
+ 1600  ifconfig
+ 1601  /cd ..
+ 1602  greppy hr_schedule_weekday
+ 1603  cd ..
+ 1604  greppy hr_schedule_weekday
+ 1605  cd ~/codesnips/
+ 1606  python searchpy.py hr_schedule_weekday
+ 1607  python searchpy.py hr.schedule_weekday
+ 1608  python searchpy.py hr.schedule.weekday
+ 1609  cd ..
+ 1610  cd projekti/odoo
+ 1611  greppy schedule
+ 1612  greppy hr_schedule
+ 1613  cd ~/
+ 1614  cd projekti/odoo
+ 1615  cd ~/codesnips/
+ 1616  python searchpy.py hr.holidays.public.line
+ 1617  ssh linux03
+ 1618  cd projekti/odoo
+ 1619  cd mentis/
+ 1620  greppy anterior
+ 1621  vim addons-openerpsl/mentis_hr/models/hr_holidays_copy.py
+ 1622  ifconfig
+ 1623  greppy hr.holidays.public
+ 1624  vim addons-openerpsl/mentis_payroll/models/common.py
+ 1625  cd projekti/odoo
+ 1626  greppy overlap
+ 1627  vim odoo/addons/hr_holidays/hr_holidays.py
+ 1628  clear
+ 1629  greppy working_hours_on_day
+ 1630  vim
+ 1631  cd codesnips/
+ 1632  ls
+ 1633  more postgres_connect.py 
+ 1634  cd projekti/odoo
+ 1635  greppy update_accounting_entries
+ 1636  ssh linux03
+ 1637  cd projekti/odoo/mentis/
+ 1638  cd addons-openerpsl/
+ 1639  cd mentis_payroll
+ 1640  greppy get_month_working_hours
+ 1641  greppy get_month_working_days
+ 1642  cd projekti/odoo
+ 1643  cd mentis/addons-openerpsl/
+ 1644  gir registration_number
+ 1645  greppy registration_number
+ 1646  cd ..
+ 1647  cd ~/Notebooks/
+ 1648  ls
+ 1649  cd Notes/
+ 1650  ls
+ 1651  cd Postgres/
+ 1652  ls
+ 1653  more kill_sessions.txt 
+ 1654  cd ~/
+ 1655  cd projekti/odoo
+ 1656  greppy get_day_working_hours
+ 1657  vim mentis/addons-openerpsl/mentis_payroll/models/hr_payslip.py
+ 1658  greppy payment_transaction_type_id
+ 1659  clear
+ 1660  greppy payment_transaction_type_id
+ 1661  grepxml payment_transaction_type_id
+ 1662  cd projekti/odoo
+ 1663  greppy update_move_price
+ 1664  greppy update_move_price
+ 1665  ssh linux03
+ 1666  cd projekti/odoo
+ 1667  ssh linux03
+ 1668  cd projekti/odoo
+ 1669  greppy payroll_code
+ 1670  cd mentis/
+ 1671  vim
+ 1672  cd addons-openerpsl/
+ 1673  greppy upokojenci
+ 1674  vim
+ 1675  clear
+ 1676  ifconfig
+ 1677  ssh linux03
+ 1678  cd projekti/odoo
+ 1679  cd mentis
+ 1680  vim
+ 1681  greppy banka
+ 1682  greppy banke
+ 1683  greppy Bank
+ 1684  greppy sloveni
+ 1685  greppy tecajnice
+ 1686  greppy super()
+ 1687  greppy super
+ 1688  greppy self.cr
+ 1689  cd ..
+ 1690  greppy browse
+ 1691  cd odoo
+ 1692  greppy browse
+ 1693  cd ..
+ 1694  greppy update_accounting_entries
+ 1695  greppy update_account_line_values
+ 1696  cd mentis
+ 1697  clear
+ 1698  greppy stock_move_id
+ 1699  cd addons-openerpsl/
+ 1700  greppy stock_move_id
+ 1701  greppy stock_move_id$
+ 1702  clear
+ 1703  ssh linux03
+ 1704  ssh odoo8@10.0.0.107
+ 1705  ssh linux02
+ 1706  ssh linux01
+ 1707  ssh 10.0.0.107 -u odoo8
+ 1708  ssh odoo8@10.0.0.107 
+ 1709  ssh linux03
+ 1710  cd projekti/odoo
+ 1711  python odoo/odoo.py --conf=conf/config.conf --database=mentis_04_10_2018 -u all --stop-after-init
+ 1712  python odoo/odoo.py --conf=conf/config.conf
+ 1713  ssh nightly8@10.0.0.107
+ 1714  ssh linux03
+ 1715  cd Downloads/
+ 1716  ls rek*
+ 1717  ls *rek*
+ 1718  vim nov_inviv_rek.xml 
+ 1719  clear
+ 1720  gvim nov_inviv_rek.xml 
+ 1721  ls
+ 1722  cd rek_poprava/
+ 1723  ls
+ 1724  gvim rek_29.xml 
+ 1725  ssh linux01
+ 1726  ssh odoo8@10.0.0.107
+ 1727  ssh linux03
+ 1728  cd projekti/odoo8
+ 1729  cd projekti/odoo
+ 1730  cd mentis/
+ 1731  cd addons-openerpsl/
+ 1732  cd mentis_hr_attendance_extensions/
+ 1733  cd models/
+ 1734  ls
+ 1735  cd ..
+ 1736  ls
+ 1737  cd .git
+ 1738  ls
+ 1739  cd branches/
+ 1740  ls
+ 1741  cd ..
+ 1742  greppy leaves
+ 1743  cd ~/
+ 1744  cd codesnips/
+ 1745  python find_menu.py 
+ 1746  python find_menu.py relax_prisotnost "Working time"
+ 1747  cd ..
+ 1748  cd projekti/odoo
+ 1749  cd mentis/
+ 1750  menu_hr_configuration
+ 1751  grepxml menu_hr_configuration
+ 1752  cd projekti/odoo
+ 1753  python odoo/odoo.py -c conf/config.conf
+ 1754  cd projekti/odoo
+ 1755  cd mentis/
+ 1756  greppy get_working_hours
+ 1757  vim addons-openerpsl/mentis_hr_attendance_extensions/models/hr_employee.py
+ 1758  ssh linux03
+ 1759  cd projekti/odoo
+ 1760  cd mentis/addons-openerpsl/
+ 1761  ls
+ 1762  cd .git
+ 1763  ls
+ 1764  more config
+ 1765  cd ..
+ 1766  cd ~/codesnips/
+ 1767  ls -l
+ 1768  cd .git
+ 1769  ls
+ 1770  more config 
+ 1771  cd ~/codesnips/
+ 1772  ls
+ 1773  cd dates/
+ 1774  ls
+ 1775  ssh odoo8@10.0.0.7:8069
+ 1776  ssh odoo8@10.0.0.7
+ 1777  cd projekti/odoo/mentis/addons-openerpsl/
+ 1778  cd mentis_payroll
+ 1779  greppy t-if
+ 1780  grepxml t-if
+ 1781  ssh linux03
+ 1782  ssh linux01
+ 1783  cd projekti/odoo/erp_peek/
+ 1784  ls -l
+ 1785  vim update_contracts.py 
+ 1786  ls
+ 1787  python update_contracts.py 
+ 1788  ssh linux03
+ 1789  cd codesnips/
+ 1790  ls
+ 1791  vim create_project.py 
+ 1792  git clone https://github.com/flazz/vim-colorschemes.git ~/.vim
+ 1793  cd ~/.vim/
+ 1794  git clone https://github.com/flazz/vim-colorschemes.git
+ 1795  ls
+ 1796  cd vim-colorschemes/
+ 1797  ls
+ 1798  cd colors/
+ 1799  ls
+ 1800  vim
+ 1801  cd ~/codesnips/
+ 1802  vim 
+ 1803  cd .vim
+ 1804  cd ~/.vim/
+ 1805  ls
+ 1806  mkdir colors
+ 1807  cp vim-colorschemes/* colors
+ 1808  cp -r vim-colorschemes/* colors
+ 1809  cd ~/codesnips/
+ 1810  ls
+ 1811  vim edit_form.py 
+ 1812  python3
+ 1813  python3 edit_form.py 
+ 1814  cd projekti/odoo
+ 1815  psql -l
+ 1816  python odoo/odoo.py mentis_04_10_2018 --updatate-al --stop-aftrer-init
+ 1817  python odoo/odoo.py mentis_04_10_2018 -c conf/config.conf --updatate-al --stop-aftrer-init
+ 1818  python odoo/odoo.py -d mentis_04_10_2018 -c conf/config.conf --updatate-al --stop-aftrer-init
+ 1819  python odoo/odoo.py -d mentis_04_10_2018 -c conf/config.conf --updatate=all --stop-aftrer-init
+ 1820  python odoo/odoo.py -d mentis_04_10_2018 -c conf/config.conf --update=all --stop-aftrer-init
+ 1821  python odoo/odoo.py -d mentis_04_10_2018 -c conf/config.conf --update=all --stop-after-init
+ 1822  ssh linux01
+ 1823  cd ~/codesnips/
+ 1824  ls -l
+ 1825  vim table_widget.py
+ 1826  python table_widget.py
+ 1827  python3 table_widget.py
+ 1828  clear
+ 1829  ssh linux01
+ 1830  python
+ 1831  vim ~/.vimrcc
+ 1832  vim -u ~/.vimrcc
+ 1833  vim ~/.bashrc
+ 1834  source ~/.bashrc
+ 1835  cppvim
+ 1836  cpp test.cpp
+ 1837  cpp test1.cpp
+ 1838  cppvim test1.cpp
+ 1839  g++ test1.cpp 
+ 1840  ls
+ 1841  ./test1
+ 1842  ./a.out
+ 1843  clear
+ 1844  ls *.cpp
+ 1845  vim Makefile
+ 1846  make
+ 1847  ./helloworld 
+ 1848  g++ --help
+ 1849  more Makefile 
+ 1850  rm helloworld 
+ 1851  g++ -c test1.cpp
+ 1852  ls test1
+ 1853  ls test1*
+ 1854  g++ test1.o -o helloworld
+ 1855  ./helloworld 
+ 1856  clear
+ 1857  cd .vim
+ 1858  ls
+ 1859  cd colors/
+ 1860  ls
+ 1861  cd colors/
+ 1862  ls
+ 1863  cp *.vim ..
+ 1864  ls
+ 1865  cd codesnips/
+ 1866  python3 tableEditor.py 
+ 1867  cd ~
+ 1868  cd projekti/odoo/mentis/
+ 1869  greppy sector_code
+ 1870  grep -r --include=*.* Letni
+ 1871  grep -r --include=*.* 2015
+ 1872  grep -r --include=*.* dopust
+ 1873  cd ~/codesnips/
+ 1874  vim sortwords.py
+ 1875  clear
+ 1876  more sortwords.py 
+ 1877  clear
+ 1878  python
+ 1879  more sortwords.py 
+ 1880  clear
+ 1881  vim
+ 1882  cd projekti/odoo/mentis/addons-openerpsl/mentis_potni_nalogi/
+ 1883  greppy act_win
+ 1884  vim models/travel_order_rek.py
+ 1885  cd ,,
+ 1886  cd ..
+ 1887  cd mentis/
+ 1888  greppy Traeling
+ 1889  vim ~/codesnips/dates/date_time_test.py 
+ 1890  sweepswp 
+ 1891  cd ~/codesnips/
+ 1892  sweepswp 
+ 1893  ls -a
+ 1894  cd dates/
+ 1895  sweepswp 
+ 1896  cd ..
+ 1897  vim tableEditor.py 
+ 1898  clear
+ 1899  ssh linux03
+ 1900  ssh linux01
+ 1901  ssh root@10.0.0.8
+ 1902  cd codesnips/
+ 1903  ls
+ 1904  cd dates/
+ 1905  ls
+ 1906  vim date_time_test.py 
+ 1907  gvim date_time_test.py 
+ 1908  vim date_time_test.py 
+ 1909  gvim date_time_test.py 
+ 1910  vim date_time_test.py 
+ 1911  clear
+ 1912  gvim date_time_test.py 
+ 1913  python date_time_test.py 
+ 1914  pyflakes
+ 1915  pip install pyflakes
+ 1916  pyflakes date_time_test.py 
+ 1917  pyflakes
+ 1918  pip2 install pyflakes
+ 1919  sudo apt install pyflakes
+ 1920  pyflakes
+ 1921  pyflakes --help
+ 1922  pyflakes --version
+ 1923  pyflakes -h
+ 1924  pyflakes date_time_test.py 
+ 1925  gvim date_time_test.py 
+ 1926  python -m pip install flake8
+ 1927  flake8
+ 1928  sudo apt install flake8
+ 1929  flake8 date_time_test.py 
+ 1930  pyflakes date_time_test.py 
+ 1931  clear
+ 1932  vim test.cpp
+ 1933  ls
+ 1934  ls -a
+ 1935  sweepswp 
+ 1936  clear
+ 1937  ls
+ 1938  vim Makefile
+ 1939  clear
+ 1940  cd ..
+ 1941  mkdir cpt
+ 1942  cd cpt
+ 1943  touch p.cpp p.h main.cpp
+ 1944  vim p.h
+ 1945  gvim p.h
+ 1946  ls
+ 1947  g++ p.cpp
+ 1948  vim p.cpp
+ 1949  gvim p.cpp
+ 1950  clear
+ 1951  more Makefile 
+ 1952  make
+ 1953  ls
+ 1954  ./aout
+ 1955  ./a.out 
+ 1956  more Makefile 
+ 1957  ./person
+ 1958  clear
+ 1959  cd ..
+ 1960  tar cvfz cpp cpt/
+ 1961  ls
+ 1962  ls *.cpp
+ 1963  ls cpp
+ 1964  ls cpp -l
+ 1965  tar cvfz cpp.tar.gz cpt/
+ 1966  ls
+ 1967  cd cpt
+ 1968  ls
+ 1969  ls -l
+ 1970  rm a.out
+ 1971  ls -l
+ 1972  rm *.o
+ 1973  ls -l
+ 1974  rm person
+ 1975  make
+ 1976  ./person
+ 1977  clear
+ 1978  cd codesnips/
+ 1979  gvim ncourses.py
+ 1980  python ncourses.py 
+ 1981  cd codesnips/
+ 1982  more  ncourses.py 
+ 1983  cd projekti/odoo
+ 1984  greppy next_by_code
+ 1985  gvim odoo/openerp/addons/base/ir/ir_sequence.py
+ 1986  gvim ncmenu.py
+ 1987  python ncmenu.py 
+ 1988  cd codesnips/
+ 1989  ls
+ 1990  python ncmenu.py 
+ 1991  ssh linux01
+ 1992  cd codesnips/
+ 1993  history
+ 1994  history > history && vim history

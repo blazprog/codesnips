@@ -2,7 +2,8 @@
 
 import sys
 import PyQt5.QtWidgets as qtw
-from PyQt5.QtWidgets import QWidget, QApplication, QDialog, QMdiSubWindow
+# from PyQt5.QtWidgets import QWidget, QApplication, QDialog, \ 
+###        QMdiSubWindow
 from PyQt5.QtSql import *
 
 conn = QSqlDatabase.database()
@@ -13,7 +14,7 @@ class WordBrowse(QSqlTableModel):
         self.setTable('ozegov')
         self.select()
 
-class EditForm(QDialog):
+class EditForm(qtw.QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.initUI()

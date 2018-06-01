@@ -1,43 +1,43 @@
 import sys
-from PyQt5.QtWidgets import *
+import PyQt5.QtWidgets as wid
 from PyQt5.Qt import *
 from PyQt5.QtSql import *
 
-class TableEditor(QDialog):
+class TableEditor(wid.QDialog):
     def __init__(self,table_name, parent=None):
         super().__init__(parent)
         self.__table = table_name 
         self.adding_flag = False
-        self.edit_layout = QGridLayout()
+        self.edit_layout = wid.QGridLayout()
         self.setEditControls()
 
-        table_layout = QHBoxLayout()
-        self.view = QTableView(self)
-        self.model = QSqlTableModel(self)
+        table_layout = wid.QHBoxLayout()
+        self.view = wid.QTableView(self)
+        self.model = wid.QSqlTableModel(self)
         self.model.setTable(self.__table)
         self.model.select()
         self.view.setModel(self.model)
-        self.view.setSelectionMode(QTableView.SingleSelection)
-        self.view.setSelectionBehavior(QTableView.SelectRows)
+        self.view.setSelectionMode(wid.QTableView.SingleSelection)
+        self.view.setSelectionBehavior(wid.QTableView.SelectRows)
         self.view.resizeColumnsToContents()
         table_layout.addWidget(self.view)   
 
-        self.mapper = QDataWidgetMapper(self)
-        self.mapper.setSubmitPolicy(QDataWidgetMapper.ManualSubmit)
+        self.mapper = wid.QDataWidgetMapper(self)
+        self.mapper.setSubmitPolicy(wid.QDataWidgetMapper.ManualSubmit)
         self.mapper.setModel(self.model)
         self.setMappings()            
         self.view.selectionModel().currentRowChanged.connect(self.row_changed)        
 
-        buttons_layout = QHBoxLayout()
-        self.pbAdd = QPushButton("Add new")
+        buttons_layout = wid.QHBoxLayout()
+        self.pbAdd = wid.QPushButton("Add new")
         self.pbAdd.clicked.connect(self.add_record)
-        self.pbSave = QPushButton("Save")
+        self.pbSave = wid.QPushButton("Save")
         self.pbSave.clicked.connect(self.save_record)
-        self.pbDelete = QPushButton("Delete")
+        self.pbDelete = wid.QPushButton("Delete")
         self.pbDelete.clicked.connect(self.delete_record)
-        self.pbSort = QPushButton("Sort")
+        self.pbSort = wid.QPushButton("Sort")
         self.pbSort.clicked.connect(self.sort_record)
-        self.pbClose = QPushButton("Close")
+        self.pbClose = wid.QPushButton("Close")
         self.pbClose.clicked.connect(self.close_window)
         buttons_layout.addWidget(self.pbAdd)
         buttons_layout.addWidget(self.pbSave)
@@ -46,7 +46,7 @@ class TableEditor(QDialog):
         buttons_layout.addWidget(self.pbClose)
         buttons_layout.addStretch()
 
-        main_layout = QVBoxLayout()
+        main_layout = wid.QVBoxLayout()
         main_layout.addLayout(self.edit_layout)
         main_layout.addLayout(table_layout)
         main_layout.addLayout(buttons_layout)
@@ -78,8 +78,8 @@ class TableEditor(QDialog):
         self.leref_id.setText("{}".format(row + 1))
         self.lecategory.setFocus()
     def delete_record(self):
-        if QMessageBox.question(self,"Confirm", "Delete selected record",
-                QMessageBox.Yes|QMessageBox.No) == QMessageBox.No:
+        if wid.QMessageBox.question(self,"Confirm", "Delete selected record",
+                wid.QMessageBox.Yes|wid.QMessageBox.No) == wid.QMessageBox.No:
             return
 
         row = self.mapper.currentIndex()
@@ -113,21 +113,21 @@ class TableEditor(QDialog):
             row = index.row()
             self.mapper.setCurrentIndex(row)
         else:
-            Print("Something wrong with this app and the guy who program it")
+            print("Something wrong with this app and the guy who program it")
 
 class ReferencesEdit(TableEditor):
     def __init__(self, table_name, parent=None):
         super().__init__(table_name, parent)
 
     def setEditControls(self):
-        lblid = QLabel("Refrence id")
-        self.leref_id = QLineEdit()
-        lblcategory = QLabel("Category")
-        self.lecategory = QLineEdit()
-        lblshortdesc = QLabel("Short description")
-        self.leshort_description = QLineEdit()
-        lbllongdesc = QLabel("Long description")
-        self.lelong_description = QLineEdit()
+        lblid = wid.QLabel("Refrence id")
+        self.leref_id = wid.QLineEdit()
+        lblcategory = wid.QLabel("Category")
+        self.lecategory = wid.QLineEdit()
+        lblshortdesc = wid.QLabel("Short description")
+        self.leshort_description = wid.QLineEdit()
+        lbllongdesc = wid.QLabel("Long description")
+        self.lelong_description = wid.QLineEdit()
         self.edit_layout.addWidget(lblid,0,0)
         self.edit_layout.addWidget(self.leref_id,0,1)
         self.edit_layout.addWidget(lblcategory,1,0)

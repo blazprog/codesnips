@@ -46,6 +46,6 @@
         <p class="oe_view_nocontent_create">Create the first income type</p>
       </field>
     </record>
-    <menuitem id="menu_my_brave_model" name="My Brave Model" sequence="12" action="action_my_brave_model"/>
+    <menuitem id="menu_my_brave_model" name="My Brave Model" sequence="12" action="action_my_brave_model" parent=""/>
   </data>
 </openerp>

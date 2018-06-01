@@ -2,7 +2,8 @@
 
 import sys
 import PyQt5.QtWidgets as qtw
-from PyQt5.QtWidgets import QMainWindow, QApplication, QMdiArea, QMdiSubWindow
+# from PyQt5.QtWidgets import QMainWindow, QApplication, 
+# QMdiArea, QMdiSubWindow
 from PyQt5.QtSql import QSqlDatabase
 
 from edit_form import EditForm
