@@ -1,18 +1,16 @@
-/home/blaz/projekti/odoo/odoo/addons/account/account.py     _name = "account.move"
-1161
-/home/blaz/projekti/odoo/odoo/addons/account_sequence/account_sequence.py     _inherit = 'account.move'
+/home/blaz/projekti/odoo/odoo/addons/account_voucher/account_voucher.py     _inherit = "res.currency"
+32
+/home/blaz/projekti/odoo/odoo/addons/edi/models/res_currency.py     _inherit = "res.currency"
+32
+/home/blaz/projekti/odoo/odoo/addons/account/res_currency.py     _inherit = "res.currency"
 25
-/home/blaz/projekti/odoo/mentis/addons-extra/account_reversal/account_reversal.py     _inherit = "account.move"
-29
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_base/models/account_move.py     _inherit = 'account.move'
-27
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_date_done/models/account_move.py     _inherit = 'account.move'
+/home/blaz/projekti/odoo/odoo/addons/product/product.py     _inherit = 'res.currency'
+1342
+/home/blaz/projekti/odoo/odoo/openerp/addons/base/res/res_currency.py     _name = "res.currency"
+62
+/home/blaz/projekti/odoo/mentis/addons-extra/account_periodical_invoicing/models/periodical_invoicing.py         comodel_name='res.currency', string='Currency', required=True,
+188
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_base/models/res_currency.py     _inherit = "res.currency"
 26
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_stock_landed_costs/models/account_move.py     _inherit = 'account.move'
-26
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_storno/models/account_move.py     _inherit = 'account.move'
-28
-/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_stock_landed_costs/models/account_move.py     _inherit = 'account.move'
-26
-/home/blaz/projekti/odoo/mentis/addons-intercom/mentis_intercom_security_extensions/models/account_move.py     _inherit = 'account.move'
-26
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_potni_nalogi/models/currency.py     _inherit = 'res.currency'
+6

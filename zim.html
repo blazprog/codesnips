@@ -1,0 +1,1786 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Notes</title>
+	<meta name='Generator' content='Zim 0.67'>
+	<style type='text/css'>
+		a          { text-decoration: none      }
+		a:hover    { text-decoration: underline }
+		a:active   { text-decoration: underline }
+		strike     { color: grey                }
+		u          { text-decoration: none;
+					 background-color: yellow   }
+		tt         { color: #2e3436;            }
+		pre        { color: #2e3436;
+					 margin-left: 20px          }
+		h1         { text-decoration: underline;
+					 color: #4e9a06; margin-bottom: 0 }
+		h2         { color: #4e9a06; margin-bottom: 0 }
+		h3         { color: #4e9a06; margin-bottom: 0 }
+		h4         { color: #4e9a06; margin-bottom: 0 }
+		h5         { color: #4e9a06; margin-bottom: 0 }
+		p          { margin-top: 0              }
+		span.zim-tag {
+			color: #ce5c00;
+		}
+		div.zim-object {
+			border-style:solid;
+			border-width:1px;
+		}
+		.checked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8sMEGsKGkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEBUlEQVRIx62V22tdRRTGf7Nn73P2ybntnNOe3NqkPTGgLTVUUZF6QatSLOKTPgqCIqLgQ0H/A1sQQbBYCBb1QfAxiC8tSO1FqHkwJVKtjdTGNraUmObsc9nXmfGh7cGYpM1D5nHWzPetteZb3wg2eB2YqYm4zSadsMtoboiNBH/3TE0awx6j+MRoxoTg/IYRvP19TQrJS0bzhdHGSyKFkLTtjSKwMjyiEz43ynhtP6bdjBCWyFobAf7eT7VhNF/q1FRbjYjmUohlCVPwnB+6FUxMTJipqSmUUhhjEGKd3bMT4ks/Y6oLBK2Yth8hHYtCJXOix7Nf7xLMzc0xOzvLzp078TyPNE3viW3QJPXzhNWbxFFKHCmMhoLn/FHodd48vGfhapdAacXQlkFK5dL6wIUm6fuTZPuvqDQhaMUYYyiVyuQr6rXDexYuAdi3tSv1ZJNs/R/CaszzT+1na88uXFnCEnJVgivBNN8uTJKmHQI/ptOOcXNZzMz9mOqFs90OHpipWcYwlo5P4ebnuOkrvr5wgrH+h3im7y36MzuwRXYZeKha/OhP0EkadFoxQSdGSotedR/+XwMc2XvKdNUFOFqZx6LKZWIiwjgkikNmLp/hm8sH+K1zjFTHXfBYdTi+eJArzXM0GxFxoBDCopLvo/fqEwi1XPkWkGqjFo2TgB1jOYZUKZTS/D1/ncmLh7jon0IbRWoiTi59ymzzJEEQE3cStNZsGxqlfPE57MBbOR8fP3hDGalOO9fq2DlBvmZw8xa2IxACGn6TydlD/O6f5OzSV/zif0cYhLQaEXGkKBbz7Ov/AOlXV1cxgBJRI3fuSTrpTawt18kWIZN1CFuaONI0w0WOXfsI43YIggh/KUSlhqxrMz74AkOZcWBm9QkH+Gw8NDLuITi+m0yzhluSyJzBLcpblUhFxywSRAEtPwQjsKVN30CNh0uvYuOubSHLtN3J0TO1j0pmBNuFbFWRK0gyPRZpktL2I5JQkclKakNlnh54g6ocvevUr/Ai2a7wineEkcJupA3S1Wg0nVZM2E6wbEF5U5G9Q++wI7sfR7h3N8HVNstykBfzH+KJEZwiWD0aIwxCgJ0R1Mu7GXOeJSuK93bZtQIle4D9pUNU5DC5jEsu55AvZakM5NicGyEj8uuz8bUCQgj67QfY671P3vEoeC69gy695U1U7NG7XV0pUwBjDJa1/JJlWWxzHuflzQe5FJ/GsgUVuZ2t8lEkTvfc0aNHb72flBhjVicQQqCUuvM3/M+WDVguWBrMVdDXEGZlBVEUrVCU9d9s5+fnaTQa2PZyPxEIhJaI1EEoZwX4ncynp6fXrmB4eJjR0VFarRbNZnP9P9rt9gohqNVq1Ov1ZbF/AZGev3hLJ2/zAAAAAElFTkSuQmCC)}
+		.xchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8bDYnDxEwAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEK0lEQVRIx9WVS2hTWRjHf/eR3CY1nbxMH2YiZRQS6qO13YlMVxY3SnVcuNIBFezGpSADLoQqLu1sHJCqdCFSXFpw4YOCSH3BtFqttTNamabX3DS5bfO6uffMoglja3RGcDMHzuac7/z/53++//cd+L8P6VuCPQYZ8ADNgBd4J31DcDcQs+GnHByRocEDv0kfBSjAOlYCs11Q+gpwDegS8LMJ+3QIK0ATzEhV8Odnz5bzw8P4dJ25aJQ/WlvJ1df/K7hSLtOcTNI+Pk69rpMTgqIQhCDvh1/VSpw79+gRrRMTmLZNezLJJsPg+a5dmOEwQlFqg1sWG16/Jv7sGWXDwBACFQjC9HcwIMONKkGp4PGAJGEDS0IQmZlhnWnye3c3eiyGo6qr3WHbrJ+dJf7gAXI6zSIr72T7/fgzmT4FHnTBsgrQBfYvTU0km5vxz86iADnAm0rRPTWFt7cXZccOJJcLAGHb2K9ekT93jmwmwwdAAFpjI6Ntbfxw5879ag7l6o1sr5eHHR3IsRgeQK/M4sQE+YEB7JcvEY6zAj45SWFgAPPxYwzHoQxIkQjTPT0kIxE+Noj8sexFn4/xnh58iQTeSpHkHAdrbIzi0BCOrmNPTpK/eJHM3bt8sCyKQCiR4NWePWSiUZw1+ZLXJm4pFKLhzBlCsRh2RUXacVgeGaF47RrL58+zcP8+RrmMkCQinZ1EL1zAjERqmkH+tLYl1G3bCJw4QUjT0IA0MJfLMX/5MqmHD0nZNiUgtGULG/r7ccXjINWuWbnmqsuFu7sb/4EDNLlcBIEioNs2KUAFGmMxmk6dQm1tRZI+3xBqEkiShBQOox05Ql1nJ26gvuIUAWiKQnj/ftStW5Fk+YuF+NldsbBA4cYN9KdPmaso8Fc62ZJtk7l1C2t0FGdxESHE1xE4hkHh6lX0oSHSpRIewC/LrPf7CSgKNpCamkI/fZr8pUuIZBIcpyaBunahPp1mub+fDyMjGKUSChCsq6Nh717q9u2jbnSU0uAgRrFIwTThyhUCqRS+hgZKLS1fJvDm87SNjZGcnsYUAjcQ8vsJ9/Xh7u1FDgRQN20iks3iDA+zZFmYhQLqzZtsj8WY3L0baY2Sf55ICCKpFHUzM2SEQAJCHg+hY8fQDh5EDgRWDoRC1J88SePRo2geD0XAcBy8b98Sv3ePYDZbbf2rFQjLIphMsmDbaEBQVQkePox26BCSz7e6i4bDrDt+nGYhmBscpFAskheC4Js3bPR4qHphFYEnlcI7P4/jdqNpGu8TCe4oCsXr1z//F2ga3+/cSfTJE0qmSVYIsKzaOZDcbjKyzFIiwfvt21kMBLA07YsetzWNd+3tLLW0sH5igvT8PH9Go/z44kX+E4LGjg7GDYOcy4XlOEgLC//5P/5LCFzxOPLmzWyIx+m6fduu7v0NVGqyTSycKksAAAAASUVORK5CYII=)}
+		.unchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8qAt8h3m8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA60lEQVRIx+2VsQqDMBRF70sCLg5OLoKgjk7+lJ/hh+STXBwcnRz8ArMEkrxOFktbaC3tULzTg5e8k5vADXDq70VbobXmvu/hvQczg4heHrJfXxQFuq67blZbMc8zpmlCXddIkgTOuZcBUko45zCOI6y1Nz2xFSEEZFmGOI7fGg4A3nsQEZqmuXOu9jallACAtm3fvmutNaIoAjM/dkBECCF89KCbk4eAb+kEnIAT8EsAM0OIz3hSyrssUvss8t5fg+uIrLXPs0gIgWVZYIyBUurQyYdheO4gz3NUVQVjDNZ1PfSjpWmKsixvehfB9GBZ3NndrgAAAABJRU5ErkJggg==)}
+		.migrated-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB+AKHREFA8vJSnkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAC1klEQVRIx+2VT0hUURTGf/e958w4Tc3TYowMw1GyEgwr1MqsFmbZIrIWQZsWJUjbdoHQpl3Qps0swnCRECQFYkR/TC1iKkqmfzAKTo2Vf8hoRsfR995tkRMT87RRWkUHHhy495zvnvvu933wP/75EKkkEAjIYDCIaZpIKRFCZN0kfX9xcTGtra2/irVUEolECIfDlJeXo+s6hmFkDaCqKoZhEAqFSCaTv60pqcSyLAoLC/F4PEtqDmCaJkIIKisrMybX0sdUVRWA5ubmPzdNjjI1cpXkZC/O1fV03PXgdDqRUtpPIITAsqxsDz0Z/3CZQv8uqo4N4C8/Tp2/DdM0MiZQlvk41OTkI/LW1SGtCVb5drD3eCc71wcA+VcAHA5vDd8+3UGakxiJV7i9pdQevU5T1R35pJ3MV5QW1pf+0kWBheJ2SWua8EQXZXsu4fVVYEz1sEKvof5EuxjoPvzpcRvrdp9C2gGMx6cpOHBmbImMesds7BZubwMVDTfXDnQ3vQfK7AC8wLfExMX5whyQc3q2OEnjGm5vE76SQxsfBLr77a7CNf+n0r/l6sSMtsBSnurckiIILCobAtVZhpF4gZF4jubaymj4Ch/fd380LE7bAnjc0NPxk2yqpmEuwGxF0ag+0k5uTpzZeBeaazvj0We8fXojainsb2xh2BZgbe0gSIllzSIUh63wfQ6dZ/O2fbjcKlOj58jJ3cVENESw5yErc9nf2MLQ4jwQAkV1Lqiq37/cZ9WaahJjF9AcmxiPDhLs7ePe23oOnmUwg2hSShQle96tKDjA2HAniusgo9FxnvY9Jxw7RWzGYy92QghM00x5g53qp9sHmtB58/o2umOI2NwGolMnMYUHIb7aAyiKwsjICLqu2/qBEIKUUAohMaSHSLyBSMoPTINQ6CX5+fn2AEVFRZSUlBCPx4nFYhl3L4RESjF/GEgX3pSj+Xw+/H7/b3U/AEOZFnp7O5+5AAAAAElFTkSuQmCC)}
+		ul {list-style-image: none}
+		/* ul rule needed to reset style for sub-bullets */
+	</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class='header'>
+	[ <span class='insen'>Prev</span> ]
+
+	[ <span class='insen'>Index</span> ]
+
+	[ <span class='insen'>Next</span> ]
+</div>
+
+<hr />
+
+<!-- Wiki content -->
+
+<div class='pages'>
+	<div class='heading'>
+	<h1>gesla <a name='gesla'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 16 april 2018
+</p>
+
+<p>
+Povezava na Relax<br>
+Matjaž Kalič<br>
+Sent: 	Tuesday, March 27, 2018 1:12 PM<br>
+To: 	<br>
+Blaž Korošec<br>
+-Remote na naš strežnik Mentisdev 10.0.0.5<br>
+-Iz tega naprej remote na 193.77.127.130:3389 - Proliant (Me987nti$)
+</p>
+
+<p>
+- Putty na Odoo (mentis,mentis)<br>
+- su odoo8 password odoo8<br>
+root password mentis
+</p>
+
+<br>
+
+<p>
+Dostop do openerpsl repositorija
+</p>
+
+<p>
+git clone -b 8.0 <a href="ssh://git@odoo.mentis.si:8887/~/odoo_openerpsl.git" title="ssh://git@odoo.mentis.si:8887/~/odoo_openerpsl.git" class="ssh">ssh://git@odoo.mentis.si:8887/~/odoo_openerpsl.git</a> --single-branch --depth 1
+</p>
+
+<p>
+Geslo za git Menti5@gitT
+</p>
+
+<p>
+su odoo mentis
+</p>
+
+<br>
+
+<p>
+git pull 
+</p>
+
+<h2>geslo za mentis produkcijski streznik</h2>
+
+<p>
+<b>user 		password</b>
+</p>
+
+<hr>
+
+<p>
+odoo8			odoo8<br>
+mentis 		Mentis20
+</p>
+
+<h2>Dostop nemski strežnik</h2>
+
+<p>
+ssh -p 8887M <a href="mailto:root@odoo.mentis.si" title="root@odoo.mentis.si" class="mailto">root@odoo.mentis.si</a><br>
+geslo root:  Menti5@odoO
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Klici <a name='Klici'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 09 junij 2017
+</p>
+
+<p>
+Tina: Preveri, kako je z RVC, ce je samo storitev in ni prodajnega naloga.  Racun 3-17-01271  Repa Gvido
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Landed cost na inovatim <a name='Landed cost na inovatim'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created četrtek 05 april 2018
+</p>
+
+<p>
+Vse module je potrebno namestiti ročno.<br>
+python odoo/odoo.py -c conf/config.conf -d &lt;ime baze&gt; -i mentis_stock_picking_extensions<br>
+python odoo/odoo.py -c conf/config.conf -d &lt;ime baze&gt; -i mentis_sale_profit_base<br>
+python odoo/odoo.py -c conf/config.conf -d &lt;ime baze&gt; -i mentis_sale_profit<br>
+python odoo/odoo.py -c conf/config.conf -d &lt;ime baze&gt; -i mentis_account_eslog<br>
+python odoo/odoo.py -c conf/config.conf -d &lt;ime baze&gt;  -i mentis_stock_landed_cost
+</p>
+
+<p>
+Mentis sale profit base preračuna calculated fielde za nabavno vrednost in dobicek in traja zelo dolgo<br>
+Mentis sale_profit ponovi preračun, zato je morda bolje da se  modul  mentis_sale_profit_base izpusti, ker ga bo tako ali<br>
+tako klical mentis_sale_profit
+</p>
+
+<p>
+Modul mentis_account_eslog je potreben zaradi polja registration_number na partnerju
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Linux administracija <a name='Linux administracija'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 11 september 2017
+</p>
+
+<br>
+<br>
+
+<p>
+nullmeta's answer is completely valid, and perhaps nullmeta will edit to provide the clarification you're looking for. I'm posting a separate solution altogether to account for the situation where it may be difficult because of network structure (think NAT firewall) to simply ssh back into the local system.
+</p>
+
+<p>
+Say you have two computers, ComputerA and ComputerB. ComputerA is your local workstation. ComputerB is a remote machine that you can access via ssh.
+</p>
+
+<p>
+Scenario 1: If ComputerA is not behind an NAT firewall
+</p>
+
+<p>
+This is a swift and easy solution, combining scp and ssh (scp performs a secure copy using ssh protocols). It requires you to have an ssh server (and client) installed on both ends (computerA and computerB).
+</p>
+
+<p>
+To use this solution, run from ComputerB:
+</p>
+
+<p>
+scp /path/to/file/on/ComputerB ComputerAUser@ComputerA:/path/to/dump/file/on/ComputerA
+</p>
+
+<p>
+Scenario 2: If ComputerA is behind an NAT firewall
+</p>
+
+<p>
+In this scenario, you would typically need to configure port-forwarding in the NAT firewall. However, you may not always have access to make these kinds of changes. In this case, you can configure your ssh tunnel from ComputerA -&gt; ComputerB such it can tunnel reverse connections as well.
+</p>
+
+<p>
+When establishing the ssh connection ComputerA -&gt; ComputerB, do so with the -R option in the following manner. ssh ComputerBUser@ComputerB -R 2222:localhost:22 where ComputerBUser is the username for the account on ComputerB being authenticated and 2222 is a free port on ComputerB. We'll use this port to reverse-tunnel back to ComputerA from ComputerB.
+</p>
+
+<p>
+Now from ComputerB, you can issue the scp command in the following manner to copy files from ComputerB -&gt; ComputerA where ComputerAUser is your username on ComputerA:
+</p>
+
+<p>
+scp -P 2222 /path/to/file/on/ComputerB ComputerAUser@localhost:/path/to/drop/file/on/computerA
+</p>
+
+<p>
+What's happening here? It looks like we are simply telling ComputerB to send the file back to itself because we're passing localhost instead of ComputerA. We are indeed telling scp to pass the file back to ComputerB, but to port 2222. All connections to port 2222 on ComputerB get forwarded to port 22 (default ssh port) on ComputerA. Thus, by tunneling backwards over the existing ssh connection, it doesn't matter that ComputerA is behind an NAT firewall.
+</p>
+
+<p>
+Scenario 3: perform the file copy from ComputerA
+</p>
+
+<p>
+Or rather than trying to do it from ComputerB, you can just run the scp command from ComputerA.
+</p>
+
+<p>
+scp ComputerBUser@ComputerB:/path/to/file/on/ComputerB /path/to/dump/file/on/ComputerA
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>merge git <a name='merge git'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created torek 24 april 2018<br>
+Dva brencaha<br>
+<ul>
+<li>dev/8.0</li>
+<li>8.0</li>
+</ul>
+</p>
+
+<br>
+
+<p>
+push normalno kot vedno<br>
+checkout branch 8.0<br>
+pull iz brancha 8.0<br>
+merge changes z brancem dev/8.0<br>
+push mergane spremembe nazaj na 8.0
+</p>
+
+<p>
+ne pozabi nazaj chekout dev/8.0 in razvijaj naprej
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>mini proizvodnja <a name='mini proizvodnja'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created torek 26 december 2017
+</p>
+
+<p>
+<ol type="1" start="1">
+<li>Če gre ven en izdelek je njegova vrednost enaka izdelkom na vhodu</li>
+<li>Če imajo vsi na izhodu pretvorbene enote, potem po teh pretvorbenih enotah ( kako je s kalom, odpisom)</li>
+<li>en izdelek v proizvodnjo ven pa vec, pri cemer eni imajo pretvorbeni faktor drugi ne. Tiste, ki nimajo, ovrednotim po uteži, glede na lastno ceno. Razliko med vhodom in izhodom razdelim sorazmerno glede na lastno ceno na tiste izdelke , ki nimajo pretvorbenih enot</li>
+<li>Če izdelek, ki gre ven nima pretvorbene enote in nima določene lastne cene, je potrebno napisati opozorilo in prekiniti premestitev.</li>
+<li>Če je na inputu več, kot en izdelek, potem razporejanje glede na pretvorbeni faktor ne pride v poštev.</li>
+<li>Če vhodni izdelek nima pretvorbenega faktorja, potem so tudi tisti na izhodnih brezpredmetni.</li>
+</ol>
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>MM-07-30 <a name='MM-07-30'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 07 avgust 2017
+</p>
+
+<br>
+
+<p>
+<ul>
+<li class="checked-box">Če postaviš product.product  active=False in je to edini product za product.template, mora biti tudi product.template active=False</li>
+<li class="checked-box">Seznam kategorij na cenikih</li>
+<li class="checked-box">Novi artikli in obveščanje komercialistov</li>
+<li class="unchecked-box">Pri uvozu artikla opomniti, da manjka cena šele ob shranjevanju</li>
+<li class="checked-box">Prosim uredite tudi na Proizvodih, da je statična širina stolpca Naziv in se za opis artikla prikaže hint</li>
+<li class="checked-box">Pri odpiranju novih artiklov, ko kopiraš iz druge kartice ne prenese nabavne cene in dobavitelja kljub kljukici!</li>
+<li class="checked-box">Komercialisti rabijo podatek o tem, ali je njihov kupec blokiran, vendar tega ne vidijo. Prosim uredite tako, da podatek vidijo, ne morejo pa ga spreminjat.</li>
+</ul>
+</p>
+
+<br>
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>MM Reklamacije <a name='MM Reklamacije'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 22 maj 2017
+</p>
+
+<p>
+Blaž živjo,
+</p>
+
+<p>
+<ul>
+<li class="checked-box">na reklamacije dodaj prosim polje, kjer komercialist lahko izbere artikel, ki je predmet zahtevka. Možnost mora imeti, da se doda več artiklov.</li>
+<li class="checked-box">Polje, kamor se vnese dobavljena količina in polje kamor se vnese neustrezna količina, za vsak artikel posebej.</li>
+<li class="checked-box">:Potrebujemo polje št. reklamacijskega zapisnika kupca in datum tega dokumenta.</li>
+</ul>
+</p>
+
+<p>
+<ul>
+<li class="checked-box">Polje kamor se vnese ali je reklamacija upravičena ali ne in polje kamor se vnese Predlog rešitve.</li>
+<li class="checked-box">Polje kamor se vnese opravičilo kupcu da/ne in polhe kratkoročna ter polje dolgoročna rešitev, kamor se vnese poljuben text.</li>
+</ul>
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>NacrtDela <a name='NacrtDela'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 01 junij 2018
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Menjava tipa odsotnosti na potrjeni odsotnosti <a name='NacrtDela:Menjava tipa odsotnosti na potrjeni odsotnosti'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 01 junij 2018
+</p>
+
+<h3>Ideje</h3>
+
+<p>
+Na formo za odsotnost dodati gumb, ki je viden samo skupini 'Administrator potnih nalogov'
+</p>
+
+<p>
+"id","name"<br>
+"mentis_potni_nalogi.travel_order_manager","Administrator potnih nalogov"
+</p>
+
+<p>
+Verjetno je dovoj, ce gumbu dodam attribut groups<br>
+viden mora biti samo, ce je state validated
+</p>
+
+<p>
+odpre se wizard z one2many selection vseh tipov odsotnosti<br>
+na potrditev se spremeni tip odsotnosti na formi. Vse pa ostane readonly
+</p>
+
+<p>
+form view hr_holidays.edit_holiday_new<br>
+gumb dodam pod field holiday_status_id
+</p>
+
+<p>
+Narediti moram nov wizard, ki bo omogocal izbiro tipov odsotnosti
+</p>
+
+<p>
+Kako preverim, ali je user v grupi, na xml view-u
+</p>
+
+<h3>Končna rešitev</h3>
+
+<br>
+
+<p>
+Na koncu sem naredil tako, da je polje holiday_satus_id mozno urejati vsem ki so Administratorji<br>
+potnih nalogov, ne glede na status odsotnosti.
+</p>
+<div class="zim-object">
+<pre><code class="xml">&lt;record id="edit_holiday_new_only_manager" model="ir.ui.view"&gt;
+    &lt;!-- Zaposleni v grupi mentis_potni_nalogi.travel_order_manager
+        lahko vedno spreminjajo holiday_status_id
+    --&gt;
+    &lt;field name="name"&gt;Leave Request&lt;/field&gt;
+    &lt;field name="model"&gt;hr.holidays&lt;/field&gt;
+    &lt;field name="inherit_id" ref="hr_holidays.edit_holiday_new"/&gt;
+    &lt;field name="groups_id" eval="[(6, 0, [ref('mentis_potni_nalogi.travel_order_manager')])]"/&gt;
+    &lt;field name="arch" type="xml"&gt;
+        &lt;field name="holiday_status_id" position="attributes"&gt;
+            &lt;attribute name="attrs"&gt;
+                {'readonly': False}
+            &lt;/attribute&gt;
+        &lt;/field&gt;
+    &lt;/field&gt;
+&lt;/record&gt;</code></pre>
+</div>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Obracun proizvodnje <a name='Obracun proizvodnje'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created sreda 06 december 2017
+</p>
+
+<p>
+Na kosovnico je mozno dodati storitev<br>
+Storitev ima fixno cena za vrednost dela na 1 enoto<br>
+Na izdajnici ni storitve<br>
+Pri izracunu cene izračunaj glede na proizvedeno kolicino
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>odoo 11 reports <a name='odoo 11 reports'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created četrtek 01 februar 2018
+</p>
+
+<p>
+primer, kako odpreti report v browserju:<br>
+<a href="http://localhost:8069/report/pdf/sale.report_saleorder/22" title="http://localhost:8069/report/pdf/sale.report_saleorder/22" class="http">http://localhost:8069/report/pdf/sale.report_saleorder/22</a>
+</p>
+
+<br>
+
+<p>
+report wrapper
+</p>
+
+<div class="zim-object">
+<pre><code class="python">from odoo import api, models
+
+class report_sale_order(models.AbstractModel):
+    _name = 'report.sale.report_saleorder'
+    
+    def convert_2float(self, value, precision=2, currency_obj=None, context=None):
+        fmt = '%f' if precision is None else '%.{precision}f'
+        lang = self.env['res.lang']._lang_get(self.env.context.get('lang') or 'en_US')
+
+        formatted = lang.format(fmt.format(precision=precision), value, grouping=True, monetary=True)
+        if currency_obj:
+            if currency_obj.position == 'before':
+                formatted = currency_obj.symbol + ' ' +  formatted
+            else:
+                formatted = formatted + ' ' + currency_obj.symbol
+        return formatted
+        
+    def get_total_discount(self, order, precision=2, currency_obj=None):
+        _dp_digits = self.env['decimal.precision'].precision_get('Account')
+        disc_total = 0
+        for line in order.order_line:
+            # if line.product_uos:
+            #     disc_tmp = line.product_uos_qty * line.price_unit * line.discount / 100
+            # else:
+            #     disc_tmp = line.product_uom_qty * line.price_unit * line.discount / 100
+            disc_tmp = line.product_uom_qty * line.price_unit * line.discount / 100
+            disc_total += disc_tmp
+        return self.convert_2float(disc_total, _dp_digits, currency_obj)
+    
+    def get_total_net(self, order, precision=2, currency_obj=None):
+        _dp_digits = self.env['decimal.precision'].precision_get('Account')
+        value_total = 0
+        for line in order.order_line:
+            # if line.product_uos:
+            #     value_tmp = line.product_uos_qty * line.price_unit
+            # else:
+            #     value_tmp = line.product_uom_qty * line.price_unit
+            value_tmp = line.product_uom_qty * line.price_unit
+            value_total += value_tmp
+        return self.convert_2float(value_total, _dp_digits, currency_obj)
+
+    def get_all_taxes(self, line, precision=2, currency_obj=None):
+        _all_taxes = ''
+        for _tax_id in line.tax_id:
+            _value = _tax_id.amount*100
+            _value_formated = self.convert_2float(_value, 2, currency_obj)
+
+            if _all_taxes:
+                _all_taxes = _all_taxes + ', ' + _value_formated
+            else:
+                _all_taxes = _value_formated
+
+        return _all_taxes
+    
+    @api.multi
+    def get_report_values(self, docids, data=None):
+        report = self.env['ir.actions.report']._get_report_from_name('sale.report_saleorder')
+        docs = self.env['sale.order'].browse(docids)
+        return {
+            'doc_ids': docs.ids,
+            'doc_model': report.model,
+            'docs': docs,
+            'get_total_discount': self.get_total_discount,
+            'get_total_net': self.get_total_net,
+            'convert_2float': self.convert_2float,
+            'get_all_taxes': self.get_all_taxes,
+        }</code></pre>
+</div>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Posredni stroski <a name='Posredni stroski'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 16 februar 2018
+</p>
+
+<p>
+Ko se dodajajo posredni stroski se napacno preracuna vrednost na stock_move<br>
+Kontrole pri popravljanju vrednosti na prejemu ali prejetem racunu. <br>
+Ce so ze vezani posredni stroski, potem ne dovoli popravljanja.<br>
+move_id:
+</p>
+
+<br>
+
+<p>
+Najdi slučaj, ko se move_id od prevzema zapiše na izdani račun.<br>
+Primer se zgodi v primeru, ko je račun narejen iz nabavnega naloga in ne iz 
+</p>
+
+<p>
+Analitični konto pri spremembi posrednih stroškov.
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Postgres <a name='Postgres'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 29 december 2017
+</p>
+
+<p>
+Bakcup baze s console
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>console backup <a name='Postgres:console backup'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 23 april 2018
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Datetime increment <a name='Postgres:Datetime increment'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created četrtek 10 maj 2018
+</p>
+<div class="zim-object">
+<pre><code class="sql">select date_from, date_from + interval '1' HOUR * leave_duration_hours, leave_duration_hours 
+from hr_holidays
+where leave_duration_hours &gt; 0</code></pre>
+</div>
+
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>kill sessions <a name='Postgres:kill sessions'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created četrtek 22 februar 2018
+</p>
+
+<br>
+<br>
+
+<p>
+For future reference, you should be able to:
+</p>
+
+<p>
+-- disconnect from the database to be renamed<br>
+\c postgres
+</p>
+
+<div class="zim-object">
+<pre><code class="sql">-- force disconnect all other clients from the database to be renamed
+SELECT pg_terminate_backend( pid )
+FROM pg_stat_activity
+WHERE pid &lt;&gt; pg_backend_pid( )
+	AND datname = 'name of database';
+
+-- rename the database (it should now have zero clients)
+ALTER DATABASE "name of database" RENAME TO "new name of database";
+
+
+--Matjazeva verzija
+﻿SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'relax_produkcija'
+AND pid &lt;&gt; pg_backend_pid(); </code></pre>
+</div>
+
+<p>
+Note that table pg_stat_activity column pid was named as procpid in versions prior to 9.2. So if your PostgreSQL version is lower than 9.2, use procpid instead of pid.
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>projekti <a name='projekti'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created sreda 10 januar 2018
+</p>
+
+<p>
+Pri delegiranju naj bo naziv naloge Potrditev: &lt;Naziv delegirane naloge&gt;<br>
+Prenos status potrjeno na dodano opravilo, ce je naloga potrjena in obratno
+</p>
+
+<p>
+Atcitve task in project.work.task
+</p>
+
+<p>
+Na opravilih dodaj filter today
+</p>
+
+<p>
+Ko delegiraš nalogo ali pa dodajaš podnaloge potem dodajaj prek forme in ne prek many2many tree view-a<br>
+Ne kazi vseh polj, skrij od napredovanje delovnega casa
+</p>
+
+<br>
+
+<p>
+Namesto stopnje projekta, je stopnje nalog v projek
+</p>
+
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>python timezonees <a name='python timezonees'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 20 april 2018
+</p>
+
+<h3>Uporaba samo datum</h3>
+
+<div class="zim-object">
+<pre><code class="python"># -*- coding: utf-8 -*-
+
+# vsi razredi za delo z datumi so v datetime modulu
+import datetime
+
+
+#1) samo datum
+
+d = datetime.date(year=2018, month=4, day=3)
+print d.year, d.month, d.day
+
+today = datetime.date.today()
+print today.year, d.month, d.day
+print today.strftime('%Y-%m-%d') # v ansi formatu yyyy-mm-dd
+print today.strftime('%d.%m.%Y') # v slovenskem formatu dd.mm.yyyy
+
+print "uporaba timedelta za povecevanje, pomanjsanje datuma"
+one_day = datetime.timedelta(days=1)
+tomorow = today + one_day
+yesterday = today - one_day
+print yesterday, '\n', today, '\n', tomorow</code></pre>
+</div>
+
+<br>
+
+<h3>Za iteracijo po dnevih meseca, ugotavljanja prestopnih dni, števila dni v mesecu ... lahko uporabim modul calendar</h3>
+
+<div class="zim-object">
+<pre><code class="python">import calendar
+print "Uporaba koledarja"
+print calendar.isleap(2018) # --&gt; False
+
+print 'Stevilo dni v mesecu s pomocjo funkcije monthrange'
+print 'Funkcija month range vrne tuple. Prvi element je prvi dan v mesecu (pon, tor....)'
+print 'Drugi element pa je stevilo dni v mesecu'
+print calendar.monthrange(year=2018, month=4) # vrne (6, 30), ker je 1.4.2018 nedelja (6)
+
+"""
+Funkcija itermonthdays, ki vrne vse dneve za podan mesec in leto.
+Vkljuceni so tudi dnevi pred zacetkom in koncem, tako da je vedno
+cel teden. 
+"""
+c = calendar.Calendar()
+for day in c.itermonthdates(year=2018, month=5):
+	print type(day), day
+
+Ce hocem dobiti samo datume znotraj meseca
+print 'Samo datumi znotraj aprila'
+print '=========================='
+for day in [d for d in c.itermonthdates(year=2018, month=4) if d.month == 4]:
+	print type(day), day, day.weekday(), day.strftime("%A")</code></pre>
+</div>
+
+<br>
+<br>
+
+<h3>Uporaba timezone</h3>
+
+<br>
+
+<div class="zim-object">
+<pre><code class="python">timezone
+import pytz
+for tz in pytz.common_timezones:
+	print tz
+
+print type(pytz.common_timezones)
+
+# datetime v UTC timezone, vendar brez timezone informacije
+d_utc = datetime.datetime.utcnow()
+# datetime v localnem timezone, vendar brez timezone informacije
+d_current = datetime.datetime.now()
+print d_utc, d_current, 'difference', (d_utc - d_current).total_seconds()
+
+# bolje je vedno uporabljati datetime objekt, ki vsebuje informacijo o timezone
+LOCAL_TZ = pytz.timezone('Europe/Ljubljana')
+MOSCOW_TZ =pytz.timezone('Europe/Moscow')
+
+d_tz_aware_utc = datetime.datetime.now(tz=pytz.UTC)
+d_tz_aware_local = datetime.datetime.now(tz=LOCAL_TZ)
+print d_tz_aware_utc, d_tz_aware_local, 'difference', (d_tz_aware_utc-d_tz_aware_local).total_seconds()
+
+LOCAL_TZ = pytz.timezone('Europe/Ljubljana')
+MOSCOW_TZ =pytz.timezone('Europe/Moscow')
+time_ljubljana = datetime.datetime.now(tz=LOCAL_TZ)
+time_moscow = datetime.datetime.now(tz=MOSCOW_TZ)
+print 'time in Ljubljana', time_ljubljana,'tz info', time_ljubljana.tzinfo
+print 'time in Moscow', time_moscow, 'tz info', time_moscow.tzinfo
+
+'Pretvarjane med timezone'
+convert_to_moscow = time_ljubljana.astimezone(MOSCOW_TZ)
+print "Local converted to Moscow ", convert_to_moscow
+
+word description</code></pre>
+</div>
+
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>reg <a name='reg'></a></h1>
+	</div>
+
+	<div class='content'>
+	
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+		<b>Backlinks:</b>
+
+		<a href='#vim'>vim</a>
+
+		<br /><br />
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Relax <a name='Relax'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 16 marec 2018
+</p>
+
+<p>
+Delovni čas se bere iz one2many polja working_time_ids<br>
+Delovne ure na dan in tedenski urnik se zbrišejo<br>
+Delovni urnik se uporabi za izračun dopusta in bolniških<br>
+Izracun delovne dobe
+</p>
+
+<br>
+
+<p>
+Ob potrditvi delovnega naloga se napiše tudi odsotnost, če je razlog delovnega naloga pravi.
+</p>
+
+<p>
+Odsotnosti<br>
+====================================================<br>
+Vnos po urah, vnos po dnevih<br>
+Kljukica, ali se naj odsotnost vnaša po urah ali po dnevih<br>
+Kljukica, ali odsotnost sodi na izpis (poročilo) o prisotnosti<br>
+Kljukica ali gre za prenos ur<br>
+ *  Kontrola vnosa. Od - do je možno samo znotraj meseca.
+</p>
+
+<p>
+Kako se obračuna praznik med bolniško odsotnostjo<br>
+Kako je z dopustom pri polovičnem delovnem času.<br>
+Pri izračunu odsotnosti se upošteva koledar na pogodbi zaposlenega
+</p>
+
+<p>
+Avtomatsko dodajanje praznikov na plačilno listo<br>
+Delovni dnevi in delovni čas na pogodbi.
+</p>
+
+<p>
+Spremeni prevod nacin sortiranja
+</p>
+
+<p>
+Funkcije v katerih rabim racunati delovni cas<br>
+V Placah<br>
+<b>file: hr_payslip.py</b><br>
+<ul>
+<li class="checked-box">get_worked_days_lines</li>
+<li class="checked-box">get_leaves_days_hours</li>
+<li class="checked-box">get_month_working_hours</li>
+</ul>
+</p>
+
+<p>
+<b>file mentis_hr/hr_holidays.py</b><br>
+<ul>
+<li class="unchecked-box">compute_number_of_days_temp</li>
+</ul>
+</p>
+
+<p>
+<b>file mentis_hr_attendance_extensions</b><br>
+klicem funkcijo contract_id.get_month_working_hours()
+</p>
+
+<p>
+v hr_contract imam funkcijo get_day_working_hours(day), ki vrne stevilo delovnih dni na dano
+</p>
+
+<p>
+Testiraj:<br>
+<ul style='padding-left: 30pt'>
+<li class="unchecked-box">ali pridejo prave ure na osnovno placilno list</li>
+<li class="unchecked-box">ali se pravilno prenesejo odsotnosti, dnevne ali urne. Posebej preveri, kako se prenasa dnevna odsotnost, za samo en dan.</li>
+<li class="unchecked-box">Na katerih porocilih je pomemben delovni cas</li>
+<li class="unchecked-box"><b>Ali se pravilno obračuna samo en dan dopusta</b></li>
+</ul>
+</p>
+
+<br>
+
+<h3>Sestanek 7.4.2018</h3>
+
+<br>
+
+<p>
+Prevedi<br>
+Select worked days
+</p>
+
+<p>
+<ul>
+<li class="checked-box">Ko izbiras zaposlenega za odsotnost, ne kazi, tiste ki nimajo pogodbe. Tako se znebis napake has no valid contract, ali expected singelton.</li>
+<li class="checked-box">Ce zaposlen na pogodbi nima zapisanega delovnega case, javi napako. Ce nima delovnega casa mu obracuna vse dneve  (tudi vikende) po osem ur.</li>
+<li class="checked-box">Na zaposlenih je eno polje za konte neprevedeno.(popravil v modulu ht_timesheet_extensions)</li>
+<li class="checked-box">Pri refundiranih odsotnostih ignoriraj praznike.</li>
+<li class="checked-box">Ce nisi prijavljen kot administrator ne mores vnasati odsotnosti, ker nimas pravice brati hr_contract</li>
+<li class="checked-box">Na porocilu o prisotnosti zamenjaj placana prisotnost z Redne ure</li>
+<li class="unchecked-box">Preveri, se enkrat, kako je, ce imas odsotnost, ki se steje v redno delo.</li>
+<li class="unchecked-box">Od kod pride ime casovnice Teden 8</li>
+</ul>
+</p>
+
+<h2>O potnih nalogih in prisotnostih in pogodbah</h2>
+
+<p>
+<ul>
+<li class="checked-box">Na attendance namesto plačano piši se šteje v delovni čas</li>
+<li class="checked-box">Če je tip odsotnosti tak, da zahteva potni nalog, potem mora pred shrani izbrati delovni nalog.</li>
+<li class="unchecked-box">Pri spremembi datuma nastanka potnega naloga, preverjaj številčenje. Datum je možno spremeniti samo znotraj manjše in večje številke.</li>
+<li class="checked-box">Grupiranje tipov odsotnosti.</li>
+<li class="checked-box">Če je zadnja odsotnost plačana, potem traja toliko, kot je maksimalni delovni čas.</li>
+<li class="checked-box">Imena stolpcev v poročilu</li>
+<li class="checked-box">Prejšnja delovna doba v podjetju</li>
+<li class="checked-box">Če odsotnost ali prisotnost nimata določenega stolpca za izpis potem take stolpce že v poizvedbi izloči iz poročila.</li>
+<li class="checked-box">Delovne ure na pogodbi, ki štejejo v zavarovalno dobo</li>
+<li class="unchecked-box">Stolpci v porocilu prisotnost/odsotnost. Najprej prisotnosti, potem odsotnosti</li>
+<li class="checked-box">Na drzave dodaj vrednost dnevnic</li>
+<li class="checked-box">Na potni nalog dodaj drzavo</li>
+<li class="checked-box">Na opravilo dodaj nastavitev, ali je to veckratni potni nalog</li>
+<li class="checked-box">Na pozicijo potnega naloga dodaj name in vozilo</li>
+<li class="unchecked-box">Na potnem nalogu se en state, odobreno likvidator</li>
+<li class="unchecked-box">Forma za drzave naj bo na potnem nalogu drugacna</li>
+</ul>
+</p>
+
+<br>
+<br>
+
+<h2>Testiranje Vida</h2>
+
+<p>
+<ul>
+<li class="checked-box">Na kumulativnem izpisu ne kaže minut prenosa delovnih ur</li>
+<li class="checked-box">filter po tipu pogodbe na kumulativnem izpisu</li>
+</ul>
+</p>
+
+<h2>Povezava med potnim nalogom in placilno listo</h2>
+
+<p>
+stroski potnega naloga se izplacajo na placilni listi. Povezava med stroskom in placnim pravilom.<br>
+porocanje na rek obrazcu
+</p>
+
+<h2>Nove naloge na Relaxu</h2>
+
+<p>
+Na Relaxu pričakujo odgovore ali se lahko spodnje točke uredijo:
+</p>
+
+<p>
+<ul>
+<li class="checked-box">Delo ob nedeljah: (na kumulativnem poročilo posebej ločijo prazniki in delo v nedelji, ker te ure morajo biti na plačilni listi kot dodatek prikazane in plačane)</li>
+<li class="checked-box">Lahko daste kako blokado, da si zaposleni po 30.6.2018 ne morejoj vnesti več neizkoriščenega dopusta za leto 2017, ker tisti, ki ga do 30.6.2018 ne izkoristijo se jim dopust 2017 briše, lahko vnašajo po 30.6.2018 samo ld leta 2018?  Je to možno?</li>
+<li class="checked-box">Seznam regres  (do sedaj so ga delali ročno. Je mogoče to z novim programom kako poenostaviti oz. pridobiti približek takšnega izpisa? ) PRILOGA</li>
+<li class="checked-box">Zaposleni, ki nimajo razširjenih pooblastil v sistemu, vidijo svoj preostanek dopusta samo tam, ko dajo zahtevek za odsotnost.</li>
+<li class="checked-box">:Ali se lahko v tistem razdelku, dopusti, na koncu doda alineja, kjer bi pisalo preostanek dopusta za leto 2017, preostanek dopusta za leto 2018 (ali nekaj podobnega)</li>
+<li class="checked-box">Ugotavljamo, da kadar so zahtevki za odsotnost poslani v odobritev in jih nadrejeni zavrne, takšnega zahtevka zaposleni ne more več izbrisati in mu še vedno ostane v njegovem koledarčku (piše prav izbris ni mogoče, ker je bil zahtevek zavrnjen). Če je temu tako, ali se lahko potem zaposlenim, na njihovem koledarčku te zavrnjene odsotnosti obarvajo drugače, npr. rdeče ali pa je zraven kakšna opomba - zavrnjeno.</li>
+<li class="checked-box">Evidence, ki jih potrebujemo konec meseca:
+<ul>
+<li class="checked-box">spremembe pogodb iz določen v nedoločen čas</li>
+<li class="checked-box">spremembe pogodb glede delovnega časa</li>
+</ul>
+</li>
+<li class="checked-box">Izračun delovne dobe mora biti na tekoči datum (tistim, ki so zaposleni za določen čas in se jim vnese datum izteka pogodbe preračuna trenutnodelovno dobo na datum kop ogodba poteče )</li>
+<li class="checked-box">Na potnih nalogih, vozniki ne dovoli dodajanja in spreminjanja imena</li>
+<li class="checked-box">Ko na odsotnosti izbiras potni nalog pokazi samo tiste, ki so v draftu in so za ustreznega zaposlenega</li>
+<li class="checked-box">kkNa stevilcenju za sluzbeni avto, filtriraj stevilcenja</li>
+<li class="unchecked-box">Izpis delovne dobe na točno določen dan</li>
+<li class="checked-box">Na vseh izpisih mora biti datum izpisa</li>
+<li class="checked-box">Prazniki na skupinskem poročilu se ne kažejo več.</li>
+<li class="checked-box">Ne kaži tistih, ki so na delovnem preizkusu</li>
+<li class="checked-box">filtri po letih delovne dobe ne delajo.</li>
+<li class="checked-box">ce je urna odsotnost, vseeno dodaj date_to, zaradi reportov.</li>
+<li class="unchecked-box">1.       Izpis minulo delo na dan</li>
+<li class="checked-box">izpis regres možnost omejitve po vrsti pogodbe</li>
+<li class="checked-box">datum in ura v glavo izpisa</li>
+<li class="checked-box">uskladitev stanj na poročilih o prisotnosti</li>
+</ul>
+</p>
+
+<br>
+
+<h3>Potni nalogi</h3>
+
+<p>
+<ul>
+<li class="checked-box">sprememba tipa vozila na potnem nalogu, potem, ko je že dobil številko.</li>
+<li class="unchecked-box">Kdo lahko potrdi potni nalog???, omejiti samo na vodjo oddelka, ali clana pravilne grupe.</li>
+<li class="unchecked-box">Kako pokazati gumb samo dolocenim uporabnikom (preveri kako je narejeno na potrjevanju odsotnosti)</li>
+<li class="checked-box">Dodaj nasprotno relacijo ne deluje, ce ni izbrana sifra razdalje</li>
+<li class="checked-box">Potrjevanje potnega naloga.</li>
+<li class="checked-box">Preracun  dnevnice iz dolarjev v evre</li>
+</ul>
+</p>
+
+<h2>Relax 17.5</h2>
+
+<p>
+<ul>
+<li class="checked-box">Skupni delovni dnevi na komulativno poročilo</li>
+<li class="unchecked-box">Vnos refundirane bolniške in prazniki</li>
+<li class="unchecked-box">Izpis kartona delavca in stroški dela za delavca</li>
+<li class="unchecked-box">Obvezni podtatki na potnem nalogu</li>
+<li class="unchecked-box">Avtomatski prehod iz nerefundirane narefundirano bolniško</li>
+<li class="checked-box">Preveri, ali se domači naslov izpiše na potnem nalogu</li>
+<li class="checked-box">Plačnik potnega naloga</li>
+</ul>
+</p>
+
+<p>
+<ul>
+<li class="unchecked-box">grupe zaposlenih, kdo lahko spreminja potni nalog. Gre za spreminjanje stroškov</li>
+<li class="unchecked-box">nastavitve, za obračun dnevnic</li>
+<li class="unchecked-box">število dni za malico. Delati mora več kot osem ur.</li>
+<li class="unchecked-box">Ali se pri potnem nalogu plača malica ali ne</li>
+<li class="unchecked-box">Sperememba tipa odsotnosti potem, ko je potni nalog ze odobren.</li>
+<li class="unchecked-box">gumb, kjer se lahko spremeni tip odsotnosti. (se steje v delovni cas ali ne,  je potreben potni nalog ...)</li>
+<li class="checked-box">Kraj izdaje naj bo privzeto kraj stroskovnega mesta.</li>
+<li class="unchecked-box">glava in noga izpisa potnega naloga</li>
+<li class="unchecked-box">Za mesecni potni nalog svoj menu</li>
+<li class="unchecked-box">prepracun stroskov poti glede na vneseno valuto.</li>
+</ul>
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Novo na relaxu <a name='Relax:Novo na relaxu'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 04 junij 2018
+</p>
+
+<p>
+<ul>
+<li class="unchecked-box">Zahtevek za izplacilo nadur.</li>
+<li class="checked-box">Kontrola koncnega datuma pri dnevni odsotnosti</li>
+<li class="checked-box">Brisanje tipa prisotnosti</li>
+<li class="checked-box">Na tip prisotnosti dodaj stikalo, ne kazi na menuju</li>
+<li class="checked-box">Številčenje po poslovnem letu (kasneje)</li>
+<li class="checked-box">Potrjevanje potnega naloga. Svoj meni, privzeto vidiš samo tiste, kjer si nadrejen</li>
+<li class="unchecked-box">Na zaposlenega dodam gumb, ki ga vrže na formo za nastavitev številčenja potnega naloga</li>
+<li class="unchecked-box">Filter za odobritev, da se ne vidijo tiste odsotnosti, ki so vezane na potni nalog</li>
+<li class="checked-box">Na odsotnosti, kljukica, ali je placana malica.</li>
+<li class="unchecked-box">Preklic potnega naloga (1. preklican, ker je bil vnešen po pomoti, 2. preklican, ker je bil vnešen neupravičeno)</li>
+<li class="checked-box">registrska stevilka lastnega vozila je na potnem nalogu obvezna</li>
+</ul>
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>SAT-control <a name='SAT-control'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created torek 07 november 2017
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Nove naloge <a name='SAT-control:Nove naloge'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 29 december 2017
+</p>
+
+<p>
+Ugotovi, kje se kontrolira RVC, kako se nastavi visina RVC. Možnsost nastavitve višine, tako da se sploh ne kontrolira (predlog: višina RVC je nič).
+</p>
+
+<br>
+
+<p>
+PREJEMI<br>
+LInijsko urejanje prejemov
+</p>
+
+<p>
+Na vrstici prejema dodaj novo polje (nekje na začetku, takoj za proizvodom) <b>število nalepk</b>.<br>
+Privzeta vrednost je ena.<br>
+Glede na število nalepk sestavi recordset iz lotov.<br>
+Lot se zgenerira, ko je prejem potrjen.<br>
+S zgeneriranim recordsetom lotov pokliči funkcijo, ki printa nalepke.
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Predkalkulacija <a name='SAT-control:Predkalkulacija'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 24 november 2017
+</p>
+
+<p>
+Zadnja nabavna cena - vrednost zandjega nabavljenega produkta<br>
+Lastna nabavna cena - vrednost zandjega prodanega produkta
+</p>
+
+<p>
+<ul>
+<li class="checked-box">Preveri domeno na gumbu za predkalkulacijo</li>
+<li class="checked-box">Kalkulacijska cena se fiksira in se v nadaljnih preracunih uporablja ta cena, ne glede na sestanve dele</li>
+<li class="checked-box">Ceno materiala pri prvem preracunu prenesi c calculation price. V nadaljnih preracunih upostevaj to ceno.</li>
+<li class="checked-box">:wProdukti na predkalkulaciji se ne spreminjajo. Spreminja se samo cena.</li>
+</ul>
+</p>
+
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Uvod <a name='SAT-control:Uvod'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created torek 07 november 2017
+</p>
+
+<p>
+Loti in interne stevilke kjer se kaze lot naj se kaze tudi interna stevilka. (name_get funkcija)
+</p>
+
+<p>
+Proizvodi vsebujejo alternativne materiale<br>
+Pri lansiranju proizvodnje mozna predkalkulacija in pokalkulacija
+</p>
+
+<p>
+preveri _quant_split na proizvodnji
+</p>
+
+<p>
+enonivojska kalkulacija. vecnivojska kalkulacija<br>
+na kosovnico dodaj gumb,  ki naredi enonivojsko kalkulacijo
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+			<b>Attachments:</b>
+			<table>
+
+			<tr><td><a href='./zim_files/SAT-control/Uvod/pepper.png'>pepper.png</a></td><td>&nbsp;</td><td>56.3kb</td></tr>
+
+			</table>
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>Todo MM <a name='Todo MM'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created nedelja 21 maj 2017
+</p>
+
+<p>
+<ul>
+<li class="checked-box">Rešitev za daljše opise artiklov (reduktorji, pnevmatika), kjer imaš več kot 500 znakov, kam vnašati, da se to potem izpiše tudi na nabavnem nalogu.-B</li>
+<li class="checked-box">Reklamacijski zapisnik, ločiti kupce/dobavitelje, dodati polja za izpis-B (mentis_claim_from_product_invoice)</li>
+<li class="checked-box">Odpiranje novega partnerja in stika-B <b>potrebno pokazati </b> (mentis_partner_extensions)</li>
+<li class="checked-box">Sestanki vidni na glavnem kupcu, ne samo na stikih-B (mentis_partner_extensions)</li>
+<li class="checked-box">Na dobavnici gumb poglej račun-B <b>preveri funkcijo za iskanje računa </b>(mentis_intercom_stock_extensions)</li>
+<li class="checked-box">Šifrant za kupce blokirano, in ne samo oznaka 0, 1, 2, 3-B <b>preveri kje vse se je prej uporabljalo </b>(mentis_partner_extensions)</li>
+<li class="unchecked-box">Na seznamu odprtih nalogov naj se doda status Delno nabrano, Pripravljeno na premestitev-B</li>
+<li class="checked-box">Na prevzeme dodati tudi naš opis, zaradi lažjega pospravljanja-B <b>naredil Matjaz</b></li>
+<li class="checked-box">Direktor obveščen o vsaki novi reklamaciji-B (nastavitve o odoo, ni potrebno programirati)</li>
+<li class="checked-box">Odpiranje tmp artiklov</li>
+<li class="checked-box">Premestitev nov default filter samo stevilo aktivnih dokumentov</li>
+</ul>
+</p>
+
+<br>
+
+<p>
+Na prodajnem nalogu je širina stolpca partnerja fiksna. Inštaliran je modul za hint  (mentis_intercom_sale_extensions)<br>
+Na seznam dohodnih izdelkov sem dodal pričakovan datum (mentis_intercom_stock_extensions)<br>
+Na prodajnem nalogu lahko plačilne pogoje spreminjajo člani skupine "Potrditev s prenizkim RVC-jem"  (mentis_intercom_sale_extensions)<br>
+Na premestitvah je privzet filter samo za aktivne dokumente   (mentis_intercom_stock_extensions)<br>
+Pri odpiranju novega artikla dobi zaposleni, ki je vpisan kot dobavitelj, mail  (mentis_intercom_product_extensions)
+</p>
+
+<p>
+<ul>
+<li class="unchecked-box">Nastudiraj access rule ir.rule</li>
+<li class="unchecked-box">ponovi update 2many fields</li>
+</ul>
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+			<b>Attachments:</b>
+			<table>
+
+			<tr><td><a href='./zim_files/Todo_MM/pasted_image.png'>pasted_image.png</a></td><td>&nbsp;</td><td>6.10kb</td></tr>
+
+			</table>
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>vim <a name='vim'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created torek 24 april 2018
+</p>
+
+<h3>makro</h3>
+
+<br>
+
+<p>
+qd 	start recording to register d<br>
+... 	your complex series of commands<br>
+q 	stop recording<br>
+<span class="zim-tag">@d</span> 	execute your macro<br>
+@@ 	execute your macro again 
+</p>
+
+<br>
+
+<h3>registers</h3>
+
+<br>
+
+<p>
+Registers in Vim let you run actions or commands on text stored within them. To access a register, you type "a before a command, where a is the name of a register. If you want to copy the current line into register k, you can type<br>
+<div style='padding-left: 30pt'>
+"kyy
+</div>
+</p>
+
+<p>
+Or you can append to a register by using a capital letter
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+"Kyy
+</div>
+</p>
+
+<p>
+You can then move through the document and paste it elsewhere using<br>
+<div style='padding-left: 30pt'>
+"kp
+</div>
+</p>
+
+<p>
+To paste from system clipboard on Linux<br>
+<div style='padding-left: 30pt'>
+"+p
+</div>
+To paste from system clipboard on Windows (or from "mouse highlight" clipboard on Linux)<br>
+<div style='padding-left: 30pt'>
+"*p
+</div>
+To access all currently defined registers type<br>
+<div style='padding-left: 30pt'>
+<a href="#reg" title=":reg" class="page">:reg</a>
+</div>
+</p>
+
+<p>
+sprememba delovnega direktorija na direktorij v katerem je datoteka<br>
+cd  %:p:h
+</p>
+
+<h3>Pasting text in command line</h3>
+
+<p>
+ctrl-R + register name
+</p>
+
+<h3>Command history</h3>
+
+<p>
+In normal mode, type: q:
+</p>
+
+<h3>Move screen without moving cursor</h3>
+
+<p>
+zz - move current line to the middle of the screen<br>
+(Careful with zz, if you happen to have Caps Lock on accidentally, you will save and exit vim!)<br>
+zt - move current line to the top of the screen<br>
+zb - m
+</p>
+
+<br>
+<br>
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>zapiski odoo <a name='zapiski odoo'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 08 junij 2018
+</p>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>external css v qweb <a name='zapiski odoo:external css v qweb'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created sreda 17 januar 2018
+</p>
+
+<br>
+
+<div class="zim-object">
+<pre><code class="xml">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;openerp&gt;
+	&lt;data&gt;
+		&lt;template id="report_css"&gt;
+			&lt;style type="text/css"&gt;
+				span.summary_line {
+					font-weight: bold !important;
+				}
+				div.caption {
+					font-weight: bold;
+				}
+				table.mentis_table td.cell-right {
+					text-align: right;
+					padding-right: 5px;
+				}
+
+			&lt;/style&gt;
+		&lt;/template&gt;
+	&lt;/data&gt;
+&lt;/openerp&gt;</code></pre>
+</div>
+
+<br>
+
+<div class="zim-object">
+<pre><code class="xml">&lt;template id="mrp_precalculation"&gt;
+	&lt;t t-call="report.html_container"&gt;
+		&lt;t t-call="report.external_layout"&gt;
+			&lt;t t-foreach="docs" t-as="doc"&gt;
+				&lt;t t-call="mentis_mrp.report_css"/&gt;
+				&lt;div class="page"&gt;</code></pre>
+</div>
+
+<br>
+<br>
+<br>
+
+<p>
+su su 
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>odoo code <a name='zapiski odoo:odoo code'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created ponedeljek 04 december 2017
+</p>
+
+<br>
+<br>
+
+<p>
+<div style='padding-left: 30pt'>
+For a many2many field, a list of tuples is expected. Here is the list of tuple that are accepted, with the corresponding semantics
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(0, 0,  { values }) link to a new record that needs to be created with the given values dictionary
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(1, ID, { values }) update the linked record with id = ID (write values on it)
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(2, ID) remove and delete the linked record with id = ID (calls unlink on ID, that will delete the object completely, and the link to it as well)
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(3, ID) cut the link to the linked record with id = ID (delete the relationship between the two objects but does not delete the target object itself)
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(4, ID) link to existing record with id = ID (adds a relationship):w:w
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(5) unlink all (like using (3,ID) for all linked records)
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+(6, 0, [IDs]) replace the list of linked IDs (like using (5) then (4,ID) for each ID in the list of IDs)
+</div>
+</p>
+
+<br>
+
+<p>
+attrs za one to many {readonly:  (line_ids, '=', [])) 
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	<hr />
+
+	<div class='heading'>
+	<h1>prikaz viewa iz kode <a name='zapiski odoo:prikaz viewa iz kode'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created petek 08 junij 2018
+</p>
+<div class="zim-object">
+<pre><code class="python">
+	@api.multi
+	def show_travel_diary(self):
+		self.ensure_one()
+		view_id = self.env.ref('mentis_potni_nalogi.to_travel_order_travel_diary').id
+		return {
+		   'name': _('Traveling dairy'),
+		   'type': 'ir.actions.act_window',
+		   'res_model': 'to_travel_order',
+		   'view_type': 'form',
+		   'view_mode': 'tree,form',
+		   'views': view_id, 'tree'], [False, 'form',
+		   'target': 'current',
+		   'domain': 'vehicle', '=', self.id,
+		   'context': {'dairy': "yes"}
+		}</code></pre>
+</div>
+
+<br>
+
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+
+	</div>
+
+	
+
+</div>
+
+</body>
+</html>
