@@ -1,16 +1,14 @@
-/home/blaz/projekti/odoo/odoo/addons/account_voucher/account_voucher.py     _inherit = "res.currency"
-32
-/home/blaz/projekti/odoo/odoo/addons/edi/models/res_currency.py     _inherit = "res.currency"
-32
-/home/blaz/projekti/odoo/odoo/addons/account/res_currency.py     _inherit = "res.currency"
-25
-/home/blaz/projekti/odoo/odoo/addons/product/product.py     _inherit = 'res.currency'
-1342
-/home/blaz/projekti/odoo/odoo/openerp/addons/base/res/res_currency.py     _name = "res.currency"
-62
-/home/blaz/projekti/odoo/mentis/addons-extra/account_periodical_invoicing/models/periodical_invoicing.py         comodel_name='res.currency', string='Currency', required=True,
-188
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_account_base/models/res_currency.py     _inherit = "res.currency"
+/home/blaz/projekti/odoo/odoo/addons/hr_holidays/hr_holidays.py     _name = "hr.holidays.status"
+36
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_hr_attendance_extensions/models/hr_holidays_status.py     _inherit = "hr.holidays.status"
+5
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_payroll/models/hr_holidays_status.py     _inherit = "hr.holidays.status"
+4
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_hr_leave_travel_order/models/hr_holiday_status.py     _inherit = "hr.holidays.status"
+5
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_hr_timesheet_extensions/hr_holidays.py     _inherit = 'hr.holidays.status'
 26
-/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_potni_nalogi/models/currency.py     _inherit = 'res.currency'
-6
+/home/blaz/projekti/odoo/mentis/addons-openerpsl/mentis_hr_timesheet_extensions/hr_holidays_copy.py     _inherit = 'hr.holidays.status'
+26
+/home/blaz/projekti/odoo/erp_peek/payroll_import.py     model_name = 'hr.holidays.status'
+194
