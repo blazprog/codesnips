@@ -54,7 +54,6 @@ def pushVariable(str, loc, toks):
   print 'push_variable', toks[0]
   exprStack.append(toks[0])
 
-
 def assignVar( str, loc, toks ):
     varStack.append( toks[0] )
 

@@ -2,6 +2,8 @@ import sys
 import os
 import re
 
+
+
 def pattern_exists(file_name, pattern):
     try:
         with open(file_name) as fh:
@@ -48,3 +50,6 @@ if __name__ == '__main__':
 
     pattern = re.compile(search_code, re.VERBOSE)
     search_in_files(dir_name, pattern)
+
+     
+    

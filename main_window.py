@@ -37,6 +37,7 @@ class MainWindow(QMainWindow):
         fileMenu.addAction(editAction)
         fileMenu.addAction(exitAction)
         self.showMaximized()
+        
 
     def showEditForm(self):
         print ('Editing form')
@@ -46,6 +47,15 @@ class MainWindow(QMainWindow):
         sub.show()
 
 
+
+def my_boo(param):
+    for i in range(10):
+        print i
+
+def my_foo(param):
+    print 'It''s my foo'
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MainWindow()
@@ -53,5 +63,6 @@ if __name__ == '__main__':
     db.setDatabaseName('ozegov')
     ok = db.open()
     if ok:
+        my_foo()
         print ('Successfully connected')
     sys.exit(app.exec_())

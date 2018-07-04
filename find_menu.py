@@ -1,5 +1,6 @@
 import sys
 import psycopg2
+from datetime import datetime
 
 def main(argv):
     db_name = argv[1]
@@ -19,12 +20,12 @@ def main(argv):
     cursor.execute(ssql, {'menu_name': menu_name})
     records = cursor.fetchall()
     i = 1
-    for sequence, name, odoo_name, parent_name, module  in records:
-        print 'Menu {}'.format(i)
-        print "Name => ", name 
-        print "Odoo name => ", odoo_name 
-        print "Parent name => ", parent_name 
-        print "Sequence => ", sequence 
+    for sequence, name, odoo_name, parent_name, module in records:
+        print "Menu".format(i)
+        print "Name => ", name
+        print "Odoo name => ", odoo_name
+        print "Parent name => ", parent_name
+        print "Sequence => ", sequence
         print "Module => ", module
         print "=" * 50
         print
@@ -33,5 +34,4 @@ def main(argv):
 if __name__ == '__main__':
     for arg in sys.argv:
         print arg
-    print 'new vim is better than previous' 
     main(sys.argv)
