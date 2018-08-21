@@ -1,0 +1,60 @@
+"vim
+====
+Created torek 24 april 2018
+
+### makro
+
+qd 	start recording to register d
+... 	your complex series of commands
+q 	stop recording
+@d 	execute your macro
+@@ 	execute your macro again 
+
+
+### registers
+
+Registers in Vim let you run actions or commands on text stored within them. To access a register, you type "a before a command, where a is the name of a register. If you want to copy the current line into register k, you can type
+	"kyy
+
+Or you can append to a register by using a capital letter:w
+
+	"Kyy
+
+You can then move through the document and paste it elsewhere using
+	"kp
+
+To paste from system clipboard on Linux
+	"+p
+To paste from system clipboard on Windows (or from "mouse highlight" clipboard on Linux)
+	"*p
+To access all currently defined registers type
+	:reg
+
+sprememba delovnega direktorija na direktorij v katerem je datoteka
+cd  %:p:h
+
+### Pasting text in command line
+ctrl-R + register name
+
+### Command history
+In normal mode, type: q:
+
+### Move screen without moving cursor
+zz - move current line to the middle of the screen
+(Careful with zz, if you happen to have Caps Lock on accidentally, you will save and exit vim!)
+zt - move current line to the top of the screen
+zb - m
+
+### Wrapping lines
+:set wrap  //wrap lines longer than window
+:set linebreak  //It will break lines on characters included in your 'breakat' option, which includes a space by default.
+
+The following will do a line wrap without breaking any words and preserve the shorter lines.
+:set formatoptions+=w
+:set tw=80
+gggqG
+To try and format the current paragraph try the follwoing:
+:nnoremap Q gqip
+
+#### preveri xml sintakso
+!xmllint --noout %
