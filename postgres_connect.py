@@ -5,7 +5,7 @@ def main():
 	conn_string = "host='10.0.0.9' dbname='mm-prezentacija' user='odoo8' password='odoo8'"
 
     # peer authentication
-	conn_string = "dbname='sat'"
+	# conn_string = "dbname='sat'"
 
 	print ("Connecting to database\n	->%s" % (conn_string))
  

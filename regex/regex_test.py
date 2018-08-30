@@ -3,8 +3,9 @@
 import os
 import re
 from lxml import etree
-old_text = " Formula je yy = xx"
-pattern_search = r"\b(?P<lhs>\w+)\b\s+=\s+(?P<rhs>\w+)\b"
+# \b matches the empty string but only at the begining or end of a word
+old_text = " Formula je yy=xx"
+pattern_search = r"\b(?P<lhs>\w+)\b\s*=\s*(?P<rhs>\w+)\b"
 pattern_replace = r"\g<rhs> = \g<lhs>"
 
 

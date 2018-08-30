@@ -1,4 +1,3 @@
-
 """" START Vundle Configuration 
 
 " Disable file type for vundle
@@ -24,7 +23,10 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'mattn/emmet-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
-
+Plugin 'tpope/vim-surround'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'romainl/Apprentice'
+Plugin 'w0rp/ale'
 call vundle#end()            " required
 filetype plugin indent on    " required
 """" END Vundle Configuration 
@@ -42,6 +44,7 @@ noremap <Leader>j :NERDTreeToggle<enter>
 noremap <Leader>w :cd %:p:h<enter>
 map <Leader>b :ls<CR>:b<Space>
 map <Leader>p :CtrlP<CR>:
+map <Leader>c :ALEToggle<CR>
 map <Leader>a :cp<CR>
 map <Leader>; :cn<CR>
 
@@ -52,6 +55,16 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsSnippetsDir="~/.vim/snips"
 
+" ale linter settings
+" Write this in your vimrc file
+" let g:ale_lint_on_text_changed = 'never'
+" You can disable this option too
+" if you don't want linters to run on opening a file
+let g:ale_lint_on_enter = 0
+
+
+let g:jedi#popup_on_dot = 0
+let g:jedi#show_call_signatures = "2"
 
 set nu
 set term=ansi
@@ -62,8 +75,11 @@ if has('gui_running')
   set guifont=Monospace\ 12
   colorscheme codeschool
 else
-  colorscheme desert
+  set t_Co=256
+  colorscheme zenburn 
 endif
+
+autocmd FileType python setlocal completeopt-=preview
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |

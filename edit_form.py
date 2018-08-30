@@ -22,12 +22,12 @@ class EditForm(qtw.QDialog):
     def initUI(self):
         self.setWindowTitle('New Edit Form')
         lblWord = qtw.QLabel('Word')
-        lbl = qtw.Qlabel("My Label")
+        lbl = qtw.QLabel("My Label")
         self.txtWord = qtw.QLineEdit()
         lblDescription = qtw.QLabel('Description')
         self.txtDescription = qtw.QTextEdit()
         self.main_layout = qtw.QVBoxLayout()
-        self.main_layout = qtv.QLabel()
+        #self.main_layout = qtv.QLabel()
         self.main_layout.addWidget(lblWord)
         self.main_layout.addWidget(lbl)
         self.main_layout.addWidget(self.txtWord)
@@ -44,7 +44,7 @@ class EditForm(qtw.QDialog):
         self.show()
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
+    app = qtw.QApplication(sys.argv)
     ef = EditForm()
     ef.show()
     sys.exit(app.exec_())
