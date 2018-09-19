@@ -104,3 +104,6 @@ date_min = datetime.date.min
 date_max = datetime.date.max
 
 print 'Najmanjsi datum', date_min, str(date_min)
+
+
+

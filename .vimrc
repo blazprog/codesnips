@@ -12,6 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Utility
 " Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'sk1418/QFGrep'
@@ -39,7 +40,7 @@ filetype plugin indent on    " required
 let mapleader=";"
 map <C-i> "+p
 map <C-c> "+y
-imap<esc> <esc>:w<enter>
+map<esc> :w<enter>
 noremap <Leader>j :NERDTreeToggle<enter>
 noremap <Leader>w :cd %:p:h<enter>
 map <Leader>b :ls<CR>:b<Space>
@@ -49,10 +50,10 @@ map <Leader>a :cp<CR>
 map <Leader>; :cn<CR>
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsListSnippets="<c-l>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsSnippetsDir="~/.vim/snips"
 
 " ale linter settings
@@ -61,10 +62,13 @@ let g:UltiSnipsSnippetsDir="~/.vim/snips"
 " You can disable this option too
 " if you don't want linters to run on opening a file
 let g:ale_lint_on_enter = 0
+let g:ale_lint_on_text_changed = 'never'
 
 
-let g:jedi#popup_on_dot = 0
+" let g:jedi#popup_on_dot = 0
 let g:jedi#show_call_signatures = "2"
+let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_collect_identifiers_from_tags_files = 1
 
 set nu
 set term=ansi
@@ -80,7 +84,7 @@ else
 endif
 
 autocmd FileType python setlocal completeopt-=preview
-
+autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |

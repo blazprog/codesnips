@@ -27,7 +27,9 @@ holidays_list.sort(key=attrgetter("code"))
 groups = groupby(holidays_list, attrgetter("code"))
 
 for k, v in groups:
+    print (k, v)
     l = list(v)
+    print l
     result = [l[0].name, sum([i.hour for i in l])]
     print (result)
 
