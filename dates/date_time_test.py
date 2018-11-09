@@ -20,6 +20,11 @@ tomorow = today + one_day
 yesterday = today - one_day
 print yesterday, '\n', today, '\n', tomorow
 
+print "uporaba timedelta za razliko med dvema datumoma"
+d1 = datetime.date(2018, 11,11)
+d2 = datetime.date(2018, 12,31)
+td = d2 - d1
+print td.days
 
 print 'Enumeracija dni med dvema datuma'
 s_d1 = '2011-02-03'
